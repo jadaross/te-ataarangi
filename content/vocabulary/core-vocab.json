@@ -1,0 +1,120 @@
+[
+  {
+    "id": "ma",
+    "word": "Mā",
+    "wordRomanised": "ma",
+    "english": "white",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/ma.mp3" },
+    "rodColour": "ma",
+    "lessonFirstAppearance": 1
+  },
+  {
+    "id": "whero",
+    "word": "Whero",
+    "wordRomanised": "whero",
+    "english": "red",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/whero.mp3" },
+    "rodColour": "whero",
+    "lessonFirstAppearance": 1
+  },
+  {
+    "id": "kakariki",
+    "word": "Kākāriki",
+    "wordRomanised": "kakariki",
+    "english": "light green",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/kakariki.mp3" },
+    "rodColour": "kakariki",
+    "lessonFirstAppearance": 1
+  },
+  {
+    "id": "wateri",
+    "word": "Wāteri",
+    "wordRomanised": "wateri",
+    "english": "purple",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/wateri.mp3" },
+    "rodColour": "wateri",
+    "lessonFirstAppearance": 2
+  },
+  {
+    "id": "kowhai",
+    "word": "Kōwhai",
+    "wordRomanised": "kowhai",
+    "english": "yellow",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/kowhai.mp3" },
+    "rodColour": "kowhai",
+    "lessonFirstAppearance": 2
+  },
+  {
+    "id": "kakariki-nui",
+    "word": "Kākāriki nui",
+    "wordRomanised": "kakariki nui",
+    "english": "dark green",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/kakariki-nui.mp3" },
+    "rodColour": "kakariki-nui",
+    "lessonFirstAppearance": 2
+  },
+  {
+    "id": "mangu",
+    "word": "Mangu",
+    "wordRomanised": "mangu",
+    "english": "black",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/mangu.mp3" },
+    "rodColour": "mangu",
+    "lessonFirstAppearance": 2
+  },
+  {
+    "id": "parauri",
+    "word": "Parauri",
+    "wordRomanised": "parauri",
+    "english": "brown",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/parauri.mp3" },
+    "rodColour": "parauri",
+    "lessonFirstAppearance": 2
+  },
+  {
+    "id": "kahurangi",
+    "word": "Kahurangi",
+    "wordRomanised": "kahurangi",
+    "english": "blue",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/kahurangi.mp3" },
+    "rodColour": "kahurangi",
+    "lessonFirstAppearance": 2
+  },
+  {
+    "id": "karaka",
+    "word": "Karaka",
+    "wordRomanised": "karaka",
+    "english": "orange",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/karaka.mp3" },
+    "rodColour": "karaka",
+    "lessonFirstAppearance": 2
+  },
+  {
+    "id": "rakau",
+    "word": "Rākau",
+    "wordRomanised": "rakau",
+    "english": "rod / stick / tree",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/rakau.mp3" },
+    "lessonFirstAppearance": 1
+  },
+  {
+    "id": "he",
+    "word": "He",
+    "wordRomanised": "he",
+    "english": "a / an (indefinite article)",
+    "partOfSpeech": "particle",
+    "audio": { "file": "vocabulary/he.mp3" },
+    "lessonFirstAppearance": 1
+  }
+]

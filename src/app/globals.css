@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------------------------------------------------
+   CSS Custom Properties — Te Ataarangi Design Tokens
+   ----------------------------------------------------------------------- */
+:root {
+  /* Background / surface */
+  --background: #FAF7F0;
+  --surface: #F0EBE0;
+  --border: #D4C9B0;
+  --border-strong: #B5A48A;
+
+  /* Text */
+  --text-primary: #1C1A16;
+  --text-secondary: #5C5448;
+  --text-muted: #8C8070;
+
+  /* Accents */
+  --accent: #2D6A4F;
+  --accent-light: #57CC99;
+  --accent-warm: #F77F00;
+  --accent-gold: #FFD166;
+
+  /* Rod colours */
+  --rod-ma: #FFFFFF;
+  --rod-whero: #E63946;
+  --rod-kakariki: #57CC99;
+  --rod-wateri: #9B5DE5;
+  --rod-kowhai: #FFD166;
+  --rod-kakariki-nui: #2D6A4F;
+  --rod-mangu: #212529;
+  --rod-parauri: #8B5E3C;
+  --rod-kahurangi: #118AB2;
+  --rod-karaka: #F77F00;
+}
+
+/* -----------------------------------------------------------------------
+   Base styles
+   ----------------------------------------------------------------------- */
+html {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: 'Source Sans 3', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--background);
+}
+
+/* Ensure Māori text (lang="mi") renders with correct font */
+:lang(mi) {
+  font-family: inherit;
+}
+
+/* -----------------------------------------------------------------------
+   Rod animation keyframes
+   ----------------------------------------------------------------------- */
+@keyframes rodPlace {
+  from {
+    opacity: 0;
+    transform: translateY(-6px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes pulseSoft {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.55; }
+}
+
+/* Respect reduced motion preference — disable all rod animations */
+@media (prefers-reduced-motion: reduce) {
+  @keyframes rodPlace {
+    from { opacity: 1; transform: none; }
+    to   { opacity: 1; transform: none; }
+  }
+}
+
+/* -----------------------------------------------------------------------
+   Focus-visible ring — accessible, on-brand colour
+   ----------------------------------------------------------------------- */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* -----------------------------------------------------------------------
+   Scrollbar — subtle, warm tones
+   ----------------------------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-strong);
+}

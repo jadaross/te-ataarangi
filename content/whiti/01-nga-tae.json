@@ -1,0 +1,161 @@
+{
+  "id": 1,
+  "slug": "nga-tae",
+  "title": "Ngā Tae",
+  "titleEnglish": "The Colours",
+  "phase": 1,
+  "theme": "nga-tae",
+  "vocabularyIds": ["whero", "ma", "kakariki"],
+  "patternIds": ["he-tae-te-rakau"],
+  "prerequisites": [],
+  "exercises": [
+    {
+      "id": "01-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "whero-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "He rākau whero",
+        "descriptionEnglish": "A red rod"
+      },
+      "correctAnswer": "He whero",
+      "acceptedVariants": ["He rākau whero", "He whero tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/whero.mp3",
+        "duration": 1.2
+      },
+      "options": ["He whero", "He mā", "He kākāriki", "He kōwhai"]
+    },
+    {
+      "id": "01-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "ma-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "He rākau mā",
+        "descriptionEnglish": "A white rod"
+      },
+      "correctAnswer": "He mā",
+      "acceptedVariants": ["He rākau mā", "He mā tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/ma.mp3",
+        "duration": 0.8
+      },
+      "options": ["He kākāriki", "He mā", "He whero", "He mangu"]
+    },
+    {
+      "id": "01-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "kakariki-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "He rākau kākāriki",
+        "descriptionEnglish": "A light green rod"
+      },
+      "correctAnswer": "He kākāriki",
+      "acceptedVariants": ["He rākau kākāriki", "He kākāriki tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/kakariki.mp3",
+        "duration": 1.5
+      },
+      "options": ["He wāteri", "He whero", "He kākāriki", "He parauri"]
+    },
+    {
+      "id": "01-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "whero-ma-pair",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "He rākau whero, he rākau mā",
+        "descriptionEnglish": "A red rod and a white rod"
+      },
+      "correctAnswer": "He whero, he mā",
+      "acceptedVariants": ["He rākau whero, he rākau mā"],
+      "audioAnswer": {
+        "file": "phrases/he-whero-he-ma.mp3",
+        "duration": 2.0
+      },
+      "options": ["He whero, he mā", "He mā, he kākāriki", "He whero, he kākāriki", "He mā, he wāteri"]
+    },
+    {
+      "id": "01-05",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "three-colours",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          },
+          {
+            "id": "r3",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 14, "height": 10 },
+        "description": "He rākau whero, he rākau mā, he rākau kākāriki",
+        "descriptionEnglish": "A red rod, a white rod, a light green rod"
+      },
+      "correctAnswer": "He whero, he mā, he kākāriki",
+      "acceptedVariants": ["He rākau whero, he rākau mā, he rākau kākāriki"],
+      "audioAnswer": {
+        "file": "phrases/he-whero-he-ma-he-kakariki.mp3",
+        "duration": 3.2
+      },
+      "options": [
+        "He whero, he mā, he kākāriki",
+        "He mā, he kākāriki, he wāteri",
+        "He whero, he kākāriki, he mangu",
+        "He mā, he whero, he parauri"
+      ]
+    }
+  ]
+}
