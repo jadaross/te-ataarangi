@@ -178,6 +178,52 @@
         "He parauri, he whero, he mangu",
         "He whero, he parauri, he kōwhai"
       ]
+    },
+    {
+      "id": "05-06",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "sb-whero-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "He whero te rākau",
+        "descriptionEnglish": "The rod is red"
+      },
+      "correctAnswer": "He whero te rākau",
+      "words": ["He", "whero", "mā", "te", "rākau", "kākāriki", "wāteri"],
+      "audioAnswer": {
+        "file": "phrases/he-whero-te-rakau.mp3"
+      }
+    },
+    {
+      "id": "05-07",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "sb-kahurangi-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 8 },
+        "description": "He kahurangi te rākau",
+        "descriptionEnglish": "The rod is blue"
+      },
+      "correctAnswer": "He kahurangi te rākau",
+      "words": ["He", "kahurangi", "karaka", "te", "rākau", "mangu", "parauri"],
+      "audioAnswer": {
+        "file": "phrases/he-kahurangi-te-rakau.mp3"
+      }
     }
   ]
 }

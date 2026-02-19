@@ -6,6 +6,7 @@ import { useLessonSession } from '@/hooks/useLessonSession'
 import { isCorrectAnswer } from '@/lib/lesson'
 import { ExerciseMultiChoice } from './ExerciseMultiChoice'
 import { ExerciseTypedInput } from './ExerciseTypedInput'
+import { ExerciseSentenceBuilder } from './ExerciseSentenceBuilder'
 import { LessonComplete } from './LessonComplete'
 
 interface LessonFlowProps {
@@ -133,11 +134,21 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
             disabled={locked}
           />
         )}
-        {exercise.type !== 'multi_choice' && exercise.type !== 'typed_input' && (
-          <p className="text-text-muted text-sm" lang="mi">
-            Kāore anō tēnei momo pātai kia rite — e haere ana ki tērā.
-          </p>
+        {exercise.type === 'sentence_builder' && (
+          <ExerciseSentenceBuilder
+            key={`${exercise.id}-${session.currentExerciseIndex}`}
+            exercise={exercise}
+            onAnswer={handleAnswer}
+            disabled={locked}
+          />
         )}
+        {exercise.type !== 'multi_choice' &&
+          exercise.type !== 'typed_input' &&
+          exercise.type !== 'sentence_builder' && (
+            <p className="text-text-muted text-sm" lang="mi">
+              Kāore anō tēnei momo pātai kia rite — e haere ana ki tērā.
+            </p>
+          )}
       </div>
     </div>
   )
