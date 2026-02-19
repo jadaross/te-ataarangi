@@ -1,0 +1,135 @@
+{
+  "id": 3,
+  "slug": "nga-tae-3",
+  "title": "Ngā Tae — 3",
+  "titleEnglish": "The Colours — 3",
+  "phase": 1,
+  "theme": "nga-tae",
+  "vocabularyIds": ["mangu", "parauri"],
+  "patternIds": ["he-tae-te-rakau"],
+  "prerequisites": [1, 2],
+  "exercises": [
+    {
+      "id": "03-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "mangu-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 14, "height": 8 },
+        "description": "He rākau mangu",
+        "descriptionEnglish": "A black rod"
+      },
+      "correctAnswer": "He mangu",
+      "acceptedVariants": ["He rākau mangu", "He mangu tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/mangu.mp3",
+        "duration": 1.1
+      },
+      "options": ["He mangu", "He parauri", "He kahurangi", "He kōwhai"]
+    },
+    {
+      "id": "03-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "parauri-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "parauri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 8 },
+        "description": "He rākau parauri",
+        "descriptionEnglish": "A brown rod"
+      },
+      "correctAnswer": "He parauri",
+      "acceptedVariants": ["He rākau parauri", "He parauri tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/parauri.mp3",
+        "duration": 1.3
+      },
+      "options": ["He kākāriki nui", "He mangu", "He parauri", "He whero"]
+    },
+    {
+      "id": "03-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "mangu-parauri-pair",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "parauri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 10 },
+        "description": "He rākau mangu, he rākau parauri",
+        "descriptionEnglish": "A black rod and a brown rod"
+      },
+      "correctAnswer": "He mangu, he parauri",
+      "acceptedVariants": ["He rākau mangu, he rākau parauri"],
+      "audioAnswer": {
+        "file": "phrases/he-mangu-he-parauri.mp3",
+        "duration": 2.2
+      },
+      "options": [
+        "He mangu, he parauri",
+        "He parauri, he kahurangi",
+        "He mangu, he kākāriki nui",
+        "He whero, he parauri"
+      ]
+    },
+    {
+      "id": "03-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "mangu-kakariki-pair",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 10 },
+        "description": "He rākau kākāriki, he rākau mangu",
+        "descriptionEnglish": "A light green rod and a black rod"
+      },
+      "correctAnswer": "He kākāriki, he mangu",
+      "acceptedVariants": ["He rākau kākāriki, he rākau mangu"],
+      "audioAnswer": {
+        "file": "phrases/he-kakariki-he-mangu.mp3",
+        "duration": 2.4
+      },
+      "options": [
+        "He kākāriki, he mangu",
+        "He mangu, he parauri",
+        "He kākāriki, he parauri",
+        "He whero, he mangu"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "id": 4,
+  "slug": "nga-tae-4",
+  "title": "Ngā Tae — 4",
+  "titleEnglish": "The Colours — 4",
+  "phase": 1,
+  "theme": "nga-tae",
+  "vocabularyIds": ["kahurangi", "karaka"],
+  "patternIds": ["he-tae-te-rakau"],
+  "prerequisites": [1, 2, 3],
+  "exercises": [
+    {
+      "id": "04-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "kahurangi-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 8 },
+        "description": "He rākau kahurangi",
+        "descriptionEnglish": "A blue rod"
+      },
+      "correctAnswer": "He kahurangi",
+      "acceptedVariants": ["He rākau kahurangi", "He kahurangi tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/kahurangi.mp3",
+        "duration": 1.5
+      },
+      "options": ["He kahurangi", "He karaka", "He mangu", "He wāteri"]
+    },
+    {
+      "id": "04-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "karaka-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 20, "height": 8 },
+        "description": "He rākau karaka",
+        "descriptionEnglish": "An orange rod"
+      },
+      "correctAnswer": "He karaka",
+      "acceptedVariants": ["He rākau karaka", "He karaka tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/karaka.mp3",
+        "duration": 1.2
+      },
+      "options": ["He kōwhai", "He whero", "He kahurangi", "He karaka"]
+    },
+    {
+      "id": "04-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "kahurangi-karaka-pair",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 10 },
+        "description": "He rākau kahurangi, he rākau karaka",
+        "descriptionEnglish": "A blue rod and an orange rod"
+      },
+      "correctAnswer": "He kahurangi, he karaka",
+      "acceptedVariants": ["He rākau kahurangi, he rākau karaka"],
+      "audioAnswer": {
+        "file": "phrases/he-kahurangi-he-karaka.mp3",
+        "duration": 2.5
+      },
+      "options": [
+        "He kahurangi, he karaka",
+        "He karaka, he kōwhai",
+        "He mangu, he kahurangi",
+        "He kahurangi, he parauri"
+      ]
+    },
+    {
+      "id": "04-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "karaka-whero-ma",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          },
+          {
+            "id": "r3",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 8 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 12 },
+        "description": "He rākau karaka, he rākau whero, he rākau kahurangi",
+        "descriptionEnglish": "An orange rod, a red rod, a blue rod"
+      },
+      "correctAnswer": "He karaka, he whero, he kahurangi",
+      "acceptedVariants": ["He rākau karaka, he rākau whero, he rākau kahurangi"],
+      "audioAnswer": {
+        "file": "phrases/he-karaka-he-whero-he-kahurangi.mp3",
+        "duration": 3.2
+      },
+      "options": [
+        "He karaka, he whero, he kahurangi",
+        "He karaka, he kahurangi, he mangu",
+        "He whero, he karaka, he parauri",
+        "He kahurangi, he karaka, he kōwhai"
+      ]
+    }
+  ]
+}

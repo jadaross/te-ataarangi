@@ -1,0 +1,183 @@
+{
+  "id": 5,
+  "slug": "nga-tae-arotake",
+  "title": "Ngā Tae — Arotake",
+  "titleEnglish": "The Colours — Review",
+  "phase": 1,
+  "theme": "nga-tae",
+  "vocabularyIds": ["ma", "whero", "kakariki", "wateri", "kowhai", "kakariki-nui", "mangu", "parauri", "kahurangi", "karaka"],
+  "patternIds": ["he-tae-te-rakau"],
+  "prerequisites": [1, 2, 3, 4],
+  "exercises": [
+    {
+      "id": "05-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-wateri",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "wateri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "He rākau wāteri",
+        "descriptionEnglish": "A purple rod"
+      },
+      "correctAnswer": "He wāteri",
+      "acceptedVariants": ["He rākau wāteri", "He wāteri tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/wateri.mp3",
+        "duration": 1.3
+      },
+      "options": ["He mā", "He wāteri", "He mangu", "He karaka"]
+    },
+    {
+      "id": "05-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-kahurangi",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 8 },
+        "description": "He rākau kahurangi",
+        "descriptionEnglish": "A blue rod"
+      },
+      "correctAnswer": "He kahurangi",
+      "acceptedVariants": ["He rākau kahurangi", "He kahurangi tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/kahurangi.mp3",
+        "duration": 1.5
+      },
+      "options": ["He kōwhai", "He parauri", "He kahurangi", "He kākāriki nui"]
+    },
+    {
+      "id": "05-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-three-mixed",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          },
+          {
+            "id": "r3",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 8 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 12 },
+        "description": "He rākau karaka, he rākau mā, he rākau mangu",
+        "descriptionEnglish": "An orange rod, a white rod, a black rod"
+      },
+      "correctAnswer": "He karaka, he mā, he mangu",
+      "acceptedVariants": ["He rākau karaka, he rākau mā, he rākau mangu"],
+      "audioAnswer": {
+        "file": "phrases/he-karaka-he-ma-he-mangu.mp3",
+        "duration": 3.0
+      },
+      "options": [
+        "He karaka, he mā, he mangu",
+        "He karaka, he mangu, he parauri",
+        "He mā, he karaka, he kahurangi",
+        "He whero, he mā, he mangu"
+      ]
+    },
+    {
+      "id": "05-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-kowhai-kakariki",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kowhai",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "kakariki-nui",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 10 },
+        "description": "He rākau kōwhai, he rākau kākāriki nui",
+        "descriptionEnglish": "A yellow rod and a dark green rod"
+      },
+      "correctAnswer": "He kōwhai, he kākāriki nui",
+      "acceptedVariants": ["He rākau kōwhai, he rākau kākāriki nui"],
+      "audioAnswer": {
+        "file": "phrases/he-kowhai-he-kakariki-nui.mp3",
+        "duration": 2.8
+      },
+      "options": [
+        "He kōwhai, he kākāriki nui",
+        "He kōwhai, he kākāriki",
+        "He kākāriki nui, he karaka",
+        "He kowhai, he parauri"
+      ]
+    },
+    {
+      "id": "05-05",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-five-colours",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "parauri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          },
+          {
+            "id": "r3",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 8 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 12 },
+        "description": "He rākau whero, he rākau parauri, he rākau kākāriki",
+        "descriptionEnglish": "A red rod, a brown rod, a light green rod"
+      },
+      "correctAnswer": "He whero, he parauri, he kākāriki",
+      "acceptedVariants": ["He rākau whero, he rākau parauri, he rākau kākāriki"],
+      "audioAnswer": {
+        "file": "phrases/he-whero-he-parauri-he-kakariki.mp3",
+        "duration": 3.5
+      },
+      "options": [
+        "He whero, he parauri, he kākāriki",
+        "He whero, he kākāriki, he parauri",
+        "He parauri, he whero, he mangu",
+        "He whero, he parauri, he kōwhai"
+      ]
+    }
+  ]
+}
