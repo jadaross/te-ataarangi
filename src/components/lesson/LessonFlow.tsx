@@ -5,6 +5,7 @@ import type { Whiti } from '@/types/lesson'
 import { useLessonSession } from '@/hooks/useLessonSession'
 import { isCorrectAnswer } from '@/lib/lesson'
 import { ExerciseMultiChoice } from './ExerciseMultiChoice'
+import { ExerciseTypedInput } from './ExerciseTypedInput'
 import { LessonComplete } from './LessonComplete'
 
 interface LessonFlowProps {
@@ -61,9 +62,12 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
         session.recordAttempt(exercise.id)
 
         if (newCount >= 2) {
-          // Find which option is the correct one to reveal
+          // For multi_choice: reveal the correct option from the options array
+          // For typed_input: reveal the correctAnswer text directly
           const correctOption =
-            exercise.options?.find((opt) => isCorrectAnswer(opt, exercise)) ?? null
+            exercise.type === 'multi_choice'
+              ? (exercise.options?.find((opt) => isCorrectAnswer(opt, exercise)) ?? null)
+              : exercise.correctAnswer
           setFeedback({ selectedOption: answer, result: 'incorrect', revealOption: correctOption })
           setTimeout(() => {
             setFeedback(null)
@@ -120,7 +124,16 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
             disabled={locked}
           />
         )}
-        {exercise.type !== 'multi_choice' && (
+        {exercise.type === 'typed_input' && (
+          <ExerciseTypedInput
+            key={`${exercise.id}-${session.currentExerciseIndex}`}
+            exercise={exercise}
+            onAnswer={handleAnswer}
+            feedback={feedback}
+            disabled={locked}
+          />
+        )}
+        {exercise.type !== 'multi_choice' && exercise.type !== 'typed_input' && (
           <p className="text-text-muted text-sm" lang="mi">
             Kāore anō tēnei momo pātai kia rite — e haere ana ki tērā.
           </p>
