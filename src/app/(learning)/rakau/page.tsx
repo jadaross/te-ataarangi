@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { RakauArrangement } from '@/components/rakau/RakauArrangement'
+import { RakauSandbox } from '@/components/rakau/RakauSandbox'
 import { ALL_ROD_COLOURS, getRodHex, getRodMaoriName } from '@/lib/rakau'
 import type { RakauConfiguration } from '@/types/rakau'
 
@@ -59,6 +60,18 @@ export default function RakauPage() {
         <p className="text-text-secondary" lang="mi">
           Ko ngā rākau tāruarua o Te Ataarangi — mātakitakihia.
         </p>
+      </section>
+
+      {/* Interactive sandbox */}
+      <section aria-labelledby="sandbox-heading">
+        <h2
+          id="sandbox-heading"
+          className="text-heading-3 font-semibold text-text-secondary mb-4 uppercase tracking-wide text-sm"
+          lang="mi"
+        >
+          Tākaro Rākau
+        </h2>
+        <RakauSandbox />
       </section>
 
       {/* Colour legend — all 10 rods */}
