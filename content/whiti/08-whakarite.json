@@ -1,0 +1,137 @@
+{
+  "id": 8,
+  "slug": "whakarite",
+  "title": "He Roa Ake, He Iti Iho",
+  "titleEnglish": "Longer, Smaller — Comparisons",
+  "phase": 1,
+  "theme": "rahi-iti",
+  "vocabularyIds": ["roa", "poto", "nui", "iti"],
+  "patternIds": ["he-rahi-ake-te-rakau"],
+  "prerequisites": [1, 2, 3, 4, 5, 6, 7],
+  "exercises": [
+    {
+      "id": "08-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "kahurangi-vs-whero-roa-ake",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 10 },
+        "description": "He roa ake te rākau kahurangi i te rākau whero",
+        "descriptionEnglish": "The blue rod is longer than the red rod"
+      },
+      "correctAnswer": "He roa ake",
+      "acceptedVariants": ["He roa ake tēnā rākau", "He roa ake te rākau kahurangi"],
+      "audioAnswer": {
+        "file": "phrases/he-roa-ake.mp3",
+        "duration": 1.5
+      },
+      "options": ["He roa ake", "He iti iho", "He roa", "He nui ake"]
+    },
+    {
+      "id": "08-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "ma-vs-kakariki-iti-iho",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 14, "height": 10 },
+        "description": "He iti iho te rākau mā i te rākau kākāriki",
+        "descriptionEnglish": "The white rod is smaller than the light green rod"
+      },
+      "correctAnswer": "He iti iho",
+      "acceptedVariants": ["He iti iho tēnā rākau", "He iti iho te rākau mā"],
+      "audioAnswer": {
+        "file": "phrases/he-iti-iho.mp3",
+        "duration": 1.5
+      },
+      "options": ["He roa ake", "He iti iho", "He poto", "He nui iho"]
+    },
+    {
+      "id": "08-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "karaka-vs-mangu-roa-ake",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 10 },
+        "description": "He roa ake te rākau karaka i te rākau mangu",
+        "descriptionEnglish": "The orange rod is longer than the black rod"
+      },
+      "correctAnswer": "He roa ake",
+      "acceptedVariants": ["He roa ake tēnā rākau", "He roa ake te rākau karaka"],
+      "audioAnswer": {
+        "file": "phrases/he-roa-ake.mp3",
+        "duration": 1.5
+      },
+      "options": ["He iti iho", "He roa ake", "He nui ake", "He poto iho"]
+    },
+    {
+      "id": "08-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "whero-vs-parauri-iti-iho",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "parauri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 10 },
+        "description": "He iti iho te rākau whero i te rākau parauri",
+        "descriptionEnglish": "The red rod is smaller than the brown rod"
+      },
+      "correctAnswer": "He iti iho",
+      "acceptedVariants": ["He iti iho tēnā rākau", "He iti iho te rākau whero"],
+      "audioAnswer": {
+        "file": "phrases/he-iti-iho.mp3",
+        "duration": 1.5
+      },
+      "options": ["He roa ake", "He iti iho", "He nui", "He poto"]
+    }
+  ]
+}

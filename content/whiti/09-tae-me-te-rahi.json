@@ -1,0 +1,145 @@
+{
+  "id": 9,
+  "slug": "tae-me-te-rahi",
+  "title": "Ngā Tae me Ngā Rahi",
+  "titleEnglish": "Colours and Sizes Together",
+  "phase": 1,
+  "theme": "rahi-iti",
+  "vocabularyIds": ["nui", "iti", "roa", "poto", "whero", "kakariki", "mangu", "kahurangi"],
+  "patternIds": ["he-tae-rahi-te-rakau"],
+  "prerequisites": [1, 2, 3, 4, 5, 6, 7, 8],
+  "exercises": [
+    {
+      "id": "09-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "kahurangi-nui-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 8 },
+        "description": "He rākau kahurangi nui",
+        "descriptionEnglish": "A big blue rod"
+      },
+      "correctAnswer": "He rākau kahurangi nui",
+      "acceptedVariants": ["He kahurangi nui"],
+      "audioAnswer": {
+        "file": "phrases/he-rakau-kahurangi-nui.mp3",
+        "duration": 2.0
+      },
+      "options": [
+        "He rākau kahurangi nui",
+        "He rākau kahurangi iti",
+        "He rākau mangu nui",
+        "He rākau kahurangi roa"
+      ]
+    },
+    {
+      "id": "09-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "whero-iti-solo",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 10, "height": 8 },
+        "description": "He rākau whero iti",
+        "descriptionEnglish": "A small red rod"
+      },
+      "correctAnswer": "He rākau whero iti",
+      "acceptedVariants": ["He whero iti"],
+      "audioAnswer": {
+        "file": "phrases/he-rakau-whero-iti.mp3",
+        "duration": 2.0
+      },
+      "options": [
+        "He rākau whero iti",
+        "He rākau whero nui",
+        "He rākau kākāriki iti",
+        "He rākau whero poto"
+      ]
+    },
+    {
+      "id": "09-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "mangu-nui-kakariki-iti",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 10 },
+        "description": "He rākau mangu nui, he rākau kākāriki iti",
+        "descriptionEnglish": "A big black rod and a small light green rod"
+      },
+      "correctAnswer": "He rākau mangu nui, he rākau kākāriki iti",
+      "acceptedVariants": ["He mangu nui, he kākāriki iti"],
+      "audioAnswer": {
+        "file": "phrases/he-rakau-mangu-nui-he-rakau-kakariki-iti.mp3",
+        "duration": 3.5
+      },
+      "options": [
+        "He rākau mangu nui, he rākau kākāriki iti",
+        "He rākau mangu iti, he rākau kākāriki nui",
+        "He rākau mangu nui, he rākau whero iti",
+        "He rākau parauri nui, he rākau kākāriki iti"
+      ]
+    },
+    {
+      "id": "09-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "karaka-roa-ma-poto",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 10 },
+        "description": "He rākau karaka roa, he rākau mā poto",
+        "descriptionEnglish": "A long orange rod and a short white rod"
+      },
+      "correctAnswer": "He rākau karaka roa, he rākau mā poto",
+      "acceptedVariants": ["He karaka roa, he mā poto"],
+      "audioAnswer": {
+        "file": "phrases/he-rakau-karaka-roa-he-rakau-ma-poto.mp3",
+        "duration": 3.8
+      },
+      "options": [
+        "He rākau karaka roa, he rākau mā poto",
+        "He rākau karaka poto, he rākau mā roa",
+        "He rākau karaka roa, he rākau whero poto",
+        "He rākau kōwhai roa, he rākau mā poto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": 10,
+  "slug": "rahi-iti-arotake",
+  "title": "Ngā Rahi — Arotake",
+  "titleEnglish": "Sizes — Review",
+  "phase": 1,
+  "theme": "rahi-iti",
+  "vocabularyIds": ["nui", "iti", "roa", "poto"],
+  "patternIds": ["he-rahi-te-rakau", "he-rahi-ake-te-rakau", "he-tae-rahi-te-rakau"],
+  "prerequisites": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "exercises": [
+    {
+      "id": "10-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-rahi-mangu",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 8 },
+        "description": "He rākau nui — he rākau mangu",
+        "descriptionEnglish": "A big rod — a black rod"
+      },
+      "correctAnswer": "He nui",
+      "acceptedVariants": ["He rākau nui", "He nui tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/nui.mp3",
+        "duration": 0.9
+      },
+      "options": ["He iti", "He nui", "He poto", "He roa"]
+    },
+    {
+      "id": "10-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-rahi-roa-poto",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 10 },
+        "description": "He rākau roa, he rākau poto",
+        "descriptionEnglish": "A long rod and a short rod"
+      },
+      "correctAnswer": "He roa, he poto",
+      "acceptedVariants": ["He rākau roa, he rākau poto"],
+      "audioAnswer": {
+        "file": "phrases/he-roa-he-poto.mp3",
+        "duration": 1.8
+      },
+      "options": [
+        "He roa, he poto",
+        "He poto, he roa",
+        "He nui, he iti",
+        "He roa, he iti"
+      ]
+    },
+    {
+      "id": "10-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-roa-ake",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "wateri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "parauri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 10 },
+        "description": "He roa ake te rākau parauri i te rākau wāteri",
+        "descriptionEnglish": "The brown rod is longer than the purple rod"
+      },
+      "correctAnswer": "He roa ake",
+      "acceptedVariants": ["He roa ake tēnā rākau", "He roa ake te rākau parauri"],
+      "audioAnswer": {
+        "file": "phrases/he-roa-ake.mp3",
+        "duration": 1.5
+      },
+      "options": ["He iti iho", "He roa ake", "He nui ake", "He poto iho"]
+    },
+    {
+      "id": "10-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-tae-rahi",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kowhai",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 14, "height": 8 },
+        "description": "He rākau kōwhai nui",
+        "descriptionEnglish": "A big yellow rod"
+      },
+      "correctAnswer": "He rākau kōwhai nui",
+      "acceptedVariants": ["He kōwhai nui"],
+      "audioAnswer": {
+        "file": "phrases/he-rakau-kowhai-nui.mp3",
+        "duration": 2.0
+      },
+      "options": [
+        "He rākau kōwhai nui",
+        "He rākau kōwhai iti",
+        "He rākau karaka nui",
+        "He rākau kōwhai poto"
+      ]
+    },
+    {
+      "id": "10-05",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "review-three-rahi",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "kakariki-nui",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 5 }
+          },
+          {
+            "id": "r3",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 8 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 12 },
+        "description": "He rākau poto, he rākau roa, he rākau roa ake",
+        "descriptionEnglish": "A short rod, a long rod, an even longer rod"
+      },
+      "correctAnswer": "He poto, he roa, he roa ake",
+      "acceptedVariants": ["He rākau poto, he rākau roa, he rākau roa ake"],
+      "audioAnswer": {
+        "file": "phrases/he-poto-he-roa-he-roa-ake.mp3",
+        "duration": 3.0
+      },
+      "options": [
+        "He poto, he roa, he roa ake",
+        "He iti, he nui, he nui ake",
+        "He poto, he roa ake, he roa",
+        "He roa, he poto, he roa ake"
+      ]
+    }
+  ]
+}

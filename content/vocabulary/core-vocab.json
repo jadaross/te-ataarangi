@@ -116,5 +116,41 @@
     "partOfSpeech": "particle",
     "audio": { "file": "vocabulary/he.mp3" },
     "lessonFirstAppearance": 1
+  },
+  {
+    "id": "nui",
+    "word": "Nui",
+    "wordRomanised": "nui",
+    "english": "big, large",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/nui.mp3" },
+    "lessonFirstAppearance": 6
+  },
+  {
+    "id": "iti",
+    "word": "Iti",
+    "wordRomanised": "iti",
+    "english": "small, little",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/iti.mp3" },
+    "lessonFirstAppearance": 6
+  },
+  {
+    "id": "roa",
+    "word": "Roa",
+    "wordRomanised": "roa",
+    "english": "long, tall",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/roa.mp3" },
+    "lessonFirstAppearance": 7
+  },
+  {
+    "id": "poto",
+    "word": "Poto",
+    "wordRomanised": "poto",
+    "english": "short",
+    "partOfSpeech": "adjective",
+    "audio": { "file": "vocabulary/poto.mp3" },
+    "lessonFirstAppearance": 7
   }
 ]

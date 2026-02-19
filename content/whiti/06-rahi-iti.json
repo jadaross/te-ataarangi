@@ -1,0 +1,124 @@
+{
+  "id": 6,
+  "slug": "rahi-iti",
+  "title": "He Nui, He Iti",
+  "titleEnglish": "Big and Small",
+  "phase": 1,
+  "theme": "rahi-iti",
+  "vocabularyIds": ["nui", "iti"],
+  "patternIds": ["he-rahi-te-rakau"],
+  "prerequisites": [1, 2, 3, 4, 5],
+  "exercises": [
+    {
+      "id": "06-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "karaka-nui",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 8 },
+        "description": "He rākau nui — he rākau karaka",
+        "descriptionEnglish": "A big rod — an orange rod"
+      },
+      "correctAnswer": "He nui",
+      "acceptedVariants": ["He rākau nui", "He nui tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/nui.mp3",
+        "duration": 0.9
+      },
+      "options": ["He nui", "He iti", "He roa", "He poto"]
+    },
+    {
+      "id": "06-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "ma-iti",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 10, "height": 8 },
+        "description": "He rākau iti — he rākau mā",
+        "descriptionEnglish": "A small rod — a white rod"
+      },
+      "correctAnswer": "He iti",
+      "acceptedVariants": ["He rākau iti", "He iti tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/iti.mp3",
+        "duration": 0.8
+      },
+      "options": ["He nui", "He iti", "He roa", "He poto"]
+    },
+    {
+      "id": "06-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "nui-iti-pair",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 10 },
+        "description": "He rākau nui, he rākau iti",
+        "descriptionEnglish": "A big rod and a small rod"
+      },
+      "correctAnswer": "He nui, he iti",
+      "acceptedVariants": ["He rākau nui, he rākau iti"],
+      "audioAnswer": {
+        "file": "phrases/he-nui-he-iti.mp3",
+        "duration": 1.8
+      },
+      "options": [
+        "He nui, he iti",
+        "He iti, he nui",
+        "He nui, he roa",
+        "He iti, he poto"
+      ]
+    },
+    {
+      "id": "06-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "parauri-nui",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "parauri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 8 },
+        "description": "He rākau nui — he rākau parauri",
+        "descriptionEnglish": "A big rod — a brown rod"
+      },
+      "correctAnswer": "He nui",
+      "acceptedVariants": ["He rākau nui", "He nui tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/nui.mp3",
+        "duration": 0.9
+      },
+      "options": ["He iti", "He nui", "He poto", "He roa"]
+    }
+  ]
+}

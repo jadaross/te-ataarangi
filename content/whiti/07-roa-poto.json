@@ -1,0 +1,124 @@
+{
+  "id": 7,
+  "slug": "roa-poto",
+  "title": "He Roa, He Poto",
+  "titleEnglish": "Long and Short",
+  "phase": 1,
+  "theme": "rahi-iti",
+  "vocabularyIds": ["roa", "poto"],
+  "patternIds": ["he-rahi-te-rakau"],
+  "prerequisites": [1, 2, 3, 4, 5, 6],
+  "exercises": [
+    {
+      "id": "07-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "karaka-roa",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 8 },
+        "description": "He rākau roa — he rākau karaka",
+        "descriptionEnglish": "A long rod — an orange rod"
+      },
+      "correctAnswer": "He roa",
+      "acceptedVariants": ["He rākau roa", "He roa tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/roa.mp3",
+        "duration": 0.9
+      },
+      "options": ["He roa", "He poto", "He nui", "He iti"]
+    },
+    {
+      "id": "07-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "ma-poto",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 10, "height": 8 },
+        "description": "He rākau poto — he rākau mā",
+        "descriptionEnglish": "A short rod — a white rod"
+      },
+      "correctAnswer": "He poto",
+      "acceptedVariants": ["He rākau poto", "He poto tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/poto.mp3",
+        "duration": 0.9
+      },
+      "options": ["He roa", "He poto", "He nui", "He iti"]
+    },
+    {
+      "id": "07-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "roa-poto-pair",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 2 }
+          },
+          {
+            "id": "r2",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 6 }
+          }
+        ],
+        "matSize": { "width": 22, "height": 10 },
+        "description": "He rākau roa, he rākau poto",
+        "descriptionEnglish": "A long rod and a short rod"
+      },
+      "correctAnswer": "He roa, he poto",
+      "acceptedVariants": ["He rākau roa, he rākau poto"],
+      "audioAnswer": {
+        "file": "phrases/he-roa-he-poto.mp3",
+        "duration": 1.8
+      },
+      "options": [
+        "He roa, he poto",
+        "He poto, he roa",
+        "He nui, he poto",
+        "He roa, he iti"
+      ]
+    },
+    {
+      "id": "07-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "kakariki-nui-roa",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kakariki-nui",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 8 },
+        "description": "He rākau roa — he rākau kākāriki nui",
+        "descriptionEnglish": "A long rod — a dark green rod"
+      },
+      "correctAnswer": "He roa",
+      "acceptedVariants": ["He rākau roa", "He roa tēnā rākau"],
+      "audioAnswer": {
+        "file": "vocabulary/roa.mp3",
+        "duration": 0.9
+      },
+      "options": ["He poto", "He iti", "He roa", "He nui"]
+    }
+  ]
+}
