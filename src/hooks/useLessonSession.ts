@@ -65,13 +65,10 @@ export function useLessonSession(totalExercises: number) {
   const recordAttempt = useCallback(
     (exerciseId: string) => {
       dispatch({ type: 'RECORD_ATTEMPT', exerciseId })
-      const prevAttempts = state.attempts.get(exerciseId) ?? 0
-      // After recording, if we've now hit MAX_ATTEMPTS, advance
-      if (prevAttempts + 1 >= MAX_ATTEMPTS) {
-        dispatch({ type: 'ADVANCE_EXERCISE', totalExercises })
-      }
+      // NOTE: Auto-advance is intentionally NOT done here.
+      // LessonFlow manages timing so visual feedback can be shown first.
     },
-    [state.attempts, totalExercises],
+    [],
   )
 
   /** Move to the next exercise (or mark lesson complete). */

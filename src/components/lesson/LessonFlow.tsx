@@ -1,5 +1,6 @@
 'use client'
 
+import { useCallback, useRef, useState } from 'react'
 import type { Whiti } from '@/types/lesson'
 import { useLessonSession } from '@/hooks/useLessonSession'
 import { isCorrectAnswer } from '@/lib/lesson'
@@ -10,41 +11,82 @@ interface LessonFlowProps {
   whiti: Whiti
 }
 
+export type FeedbackState = {
+  selectedOption: string
+  result: 'correct' | 'incorrect'
+  /** Option to gently reveal as correct on 2nd failed attempt */
+  revealOption: string | null
+} | null
+
 /**
  * Orchestrates the full lesson loop for a single whiti.
  *
- * Silence principle:
- * - Correct answer (case-insensitive, macron-tolerant): advance immediately
- * - 1st incorrect attempt: do nothing visible — arrangement stays, learner tries again
- * - 2nd incorrect attempt: advance anyway (audio would model the answer, but since
- *   audio files may be absent at this stage, just advance silently)
- *
- * The app NEVER shows "incorrect", "wrong", or "try again" text.
+ * Feedback is gentle and immersive — no text says "correct" or "wrong":
+ * - Correct:          selected option glows green → auto-advances after 700ms
+ * - Incorrect (1st):  selected option shakes softly → resets after 650ms (silence)
+ * - Incorrect (2nd):  correct option is gently revealed in green → advances after 1600ms
  */
 export function LessonFlow({ whiti }: LessonFlowProps) {
   const totalExercises = whiti.exercises.length
   const session = useLessonSession(totalExercises)
 
-  if (session.completed) {
-    return <LessonComplete />
-  }
+  // Feedback display state
+  const [feedback, setFeedback] = useState<FeedbackState>(null)
+  // Locked prevents double-clicks during animation
+  const [locked, setLocked] = useState(false)
+  // Track attempts per exercise locally so we can read the new value synchronously
+  const attemptsRef = useRef<Record<string, number>>({})
+
+  const handleAnswer = useCallback(
+    (answer: string) => {
+      if (locked) return
+      const exercise = whiti.exercises[session.currentExerciseIndex]
+      if (!exercise) return
+
+      const correct = isCorrectAnswer(answer, exercise)
+      setLocked(true)
+
+      if (correct) {
+        setFeedback({ selectedOption: answer, result: 'correct', revealOption: null })
+        setTimeout(() => {
+          setFeedback(null)
+          setLocked(false)
+          session.advanceExercise()
+        }, 700)
+      } else {
+        // Increment local attempt count
+        const prev = attemptsRef.current[exercise.id] ?? 0
+        const newCount = prev + 1
+        attemptsRef.current[exercise.id] = newCount
+        session.recordAttempt(exercise.id)
+
+        if (newCount >= 2) {
+          // Find which option is the correct one to reveal
+          const correctOption =
+            exercise.options?.find((opt) => isCorrectAnswer(opt, exercise)) ?? null
+          setFeedback({ selectedOption: answer, result: 'incorrect', revealOption: correctOption })
+          setTimeout(() => {
+            setFeedback(null)
+            setLocked(false)
+            session.advanceExercise()
+          }, 1600)
+        } else {
+          // First miss — shake and reset silently
+          setFeedback({ selectedOption: answer, result: 'incorrect', revealOption: null })
+          setTimeout(() => {
+            setFeedback(null)
+            setLocked(false)
+          }, 650)
+        }
+      }
+    },
+    [locked, whiti.exercises, session],
+  )
+
+  if (session.completed) return <LessonComplete />
 
   const exercise = whiti.exercises[session.currentExerciseIndex]
-  if (!exercise) {
-    return <LessonComplete />
-  }
-
-  const handleAnswer = (answer: string) => {
-    const correct = isCorrectAnswer(answer, exercise)
-
-    if (correct) {
-      // Advance immediately on correct answer
-      session.advanceExercise()
-    } else {
-      // Record the attempt — useLessonSession auto-advances after 2 attempts
-      session.recordAttempt(exercise.id)
-    }
-  }
+  if (!exercise) return <LessonComplete />
 
   const current = session.currentExerciseIndex + 1
 
@@ -56,15 +98,12 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
         aria-label={`Pātai ${current} o ${totalExercises}`}
         lang="mi"
       >
-        <span className="text-sm text-text-muted">
+        <span className="text-sm text-text-muted tabular-nums">
           {current} / {totalExercises}
         </span>
-        <div
-          className="flex-1 h-1.5 rounded-full bg-surface overflow-hidden"
-          aria-hidden="true"
-        >
+        <div className="flex-1 h-1.5 rounded-full bg-surface overflow-hidden" aria-hidden="true">
           <div
-            className="h-full bg-accent rounded-full transition-all duration-300"
+            className="h-full bg-accent rounded-full transition-all duration-500"
             style={{ width: `${(current / totalExercises) * 100}%` }}
           />
         </div>
@@ -73,14 +112,18 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
       {/* Exercise */}
       <div>
         {exercise.type === 'multi_choice' && (
-          <ExerciseMultiChoice exercise={exercise} onAnswer={handleAnswer} />
+          <ExerciseMultiChoice
+            key={`${exercise.id}-${session.currentExerciseIndex}`}
+            exercise={exercise}
+            onAnswer={handleAnswer}
+            feedback={feedback}
+            disabled={locked}
+          />
         )}
-
-        {/* Fallback for other exercise types not yet implemented */}
         {exercise.type !== 'multi_choice' && (
-          <div className="text-text-muted text-sm" lang="mi">
+          <p className="text-text-muted text-sm" lang="mi">
             Kāore anō tēnei momo pātai kia rite — e haere ana ki tērā.
-          </div>
+          </p>
         )}
       </div>
     </div>
