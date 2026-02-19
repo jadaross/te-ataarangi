@@ -3,7 +3,9 @@ import { resolve } from 'path'
 
 export default defineConfig({
   test: {
-    environment: 'jsdom',
+    // Using 'node' environment — we only test pure library functions.
+    // React component tests (which would need jsdom) are out of scope for Phase 1.
+    environment: 'node',
     globals: true,
   },
   resolve: {
