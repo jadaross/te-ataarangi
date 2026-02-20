@@ -35,43 +35,15 @@ export function Header({ variant = 'home' }: HeaderProps) {
         </Link>
 
         {/* Navigation */}
-        <nav aria-label={variant === 'learning' ? 'Ara whakaahua' : 'Main navigation'}>
-          {variant === 'learning' ? (
-            // Learning mode — Māori only nav
-            <ul className="flex items-center gap-1" lang="mi">
-              <li>
-                <NavLink href="/whiti">Ngā Whiti</NavLink>
-              </li>
-              <li>
-                <NavLink href="/rakau">Rākau</NavLink>
-              </li>
-              <li>
-                <NavLink href="/waiata">Waiata</NavLink>
-              </li>
-            </ul>
-          ) : (
-            // Home / meta — bilingual nav
-            <ul className="flex items-center gap-1">
-              <li>
-                <NavLink href="/whiti" lang="mi">Ngā Whiti</NavLink>
-              </li>
-              <li>
-                <NavLink href="/rakau" lang="mi">Rākau</NavLink>
-              </li>
-              <li>
-                <NavLink href="/waiata" lang="mi">Waiata</NavLink>
-              </li>
-              <li>
-                <NavLink href="/karakia" lang="mi">Karakia</NavLink>
-              </li>
-              <li>
-                <NavLink href="/kupu" lang="mi">Kupu</NavLink>
-              </li>
-              <li>
-                <NavLink href="/about">Mō Mātou</NavLink>
-              </li>
-            </ul>
-          )}
+        <nav aria-label="Ara whakaahua" lang="mi">
+          <ul className="flex items-center gap-1">
+            <li><NavLink href="/whiti">Ngā Whiti</NavLink></li>
+            <li><NavLink href="/rakau">Rākau</NavLink></li>
+            <li><NavLink href="/waiata">Waiata</NavLink></li>
+            <li><NavLink href="/karakia">Karakia</NavLink></li>
+            <li><NavLink href="/kupu">Kupu</NavLink></li>
+            <li><NavLink href="/about">Mō Mātou</NavLink></li>
+          </ul>
         </nav>
       </div>
     </header>
