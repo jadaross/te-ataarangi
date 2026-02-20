@@ -59,6 +59,9 @@ export function Header({ variant = 'home' }: HeaderProps) {
                 <NavLink href="/rakau" lang="mi">Rākau</NavLink>
               </li>
               <li>
+                <NavLink href="/waiata" lang="mi">Waiata</NavLink>
+              </li>
+              <li>
                 <NavLink href="/nga-ture">Ngā Ture</NavLink>
               </li>
               <li>
