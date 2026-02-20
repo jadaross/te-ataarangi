@@ -11,6 +11,8 @@ interface Phrase {
   english: string
   notes?: string
   pronunciation?: string
+  /** Exact slug as listed on forvo.com/languages-pronunciations/mi/ — only set when confirmed */
+  forvoSlug?: string
 }
 
 interface Group {
@@ -31,6 +33,7 @@ const PHRASE_GROUPS: Group[] = [
         english: 'Hello / Thank you',
         notes: 'The most versatile greeting in te reo Māori. Works any time of day, for one or many people.',
         pronunciation: 'kee-ah OH-rah',
+        forvoSlug: 'kia_ora',
       },
       {
         maori: 'Kia ora kōrua',
@@ -41,34 +44,40 @@ const PHRASE_GROUPS: Group[] = [
         maori: 'Kia ora koutou',
         english: 'Hello (to three or more people)',
         pronunciation: 'kee-ah OH-rah KOH-toh',
+        forvoSlug: 'Kia_ora_koutou',
       },
       {
         maori: 'Mōrena',
         english: 'Good morning',
         notes: 'Used specifically in the morning. Often heard at the start of school days and hui.',
         pronunciation: 'moh-REH-nah',
+        forvoSlug: 'Mōrena',
       },
       {
         maori: 'Tēnā koe',
         english: 'Greetings to you (formal)',
         notes: 'More formal than "Kia ora". Often used in written correspondence.',
         pronunciation: 'TEH-nah KOH-eh',
+        forvoSlug: 'Tēnā_koe',
       },
       {
         maori: 'Tēnā kōrua',
         english: 'Greetings to you two (formal)',
         pronunciation: 'TEH-nah KOH-roo-ah',
+        forvoSlug: 'Tēnā_kōrua',
       },
       {
         maori: 'Tēnā koutou',
         english: 'Greetings to you all (formal)',
         pronunciation: 'TEH-nah KOH-toh',
+        forvoSlug: 'Tēnā_koutou',
       },
       {
         maori: 'Nau mai, haere mai',
         english: 'Welcome, come here',
         notes: 'Traditional welcoming phrase — you\'ll hear this at the start of any gathering.',
         pronunciation: 'nah-OO my, hah-EH-reh my',
+        forvoSlug: 'Haere_mai',
       },
     ],
   },
@@ -82,6 +91,7 @@ const PHRASE_GROUPS: Group[] = [
         english: 'See you again',
         notes: 'The everyday farewell. Can be shortened to "Ka kite".',
         pronunciation: 'kah KEE-teh ah-NOH',
+        forvoSlug: 'ka_kite',
       },
       {
         maori: 'Ka kite āpōpō',
@@ -93,17 +103,20 @@ const PHRASE_GROUPS: Group[] = [
         english: 'Farewell (to the person leaving)',
         notes: 'Said by those who stay to those who leave. The person leaving says "E noho rā".',
         pronunciation: 'hah-EH-reh RAH',
+        forvoSlug: 'haere_rā',
       },
       {
         maori: 'E noho rā',
         english: 'Farewell (to those staying)',
         notes: 'Said by the person leaving to those who remain.',
         pronunciation: 'eh NOH-hoh RAH',
+        forvoSlug: 'E_noho_rā',
       },
       {
         maori: 'Pō mārie',
         english: 'Good night / peaceful night',
         pronunciation: 'poh MAH-ree-eh',
+        forvoSlug: 'Pō_mārie',
       },
       {
         maori: 'Ā tōna wā',
@@ -178,6 +191,7 @@ const PHRASE_GROUPS: Group[] = [
         english: 'Come here / come in',
         notes: 'An invitation to approach or enter. Frequently used to welcome people.',
         pronunciation: 'hah-EH-reh MY',
+        forvoSlug: 'Haere_mai',
       },
       {
         maori: 'Noho mai',
@@ -228,6 +242,7 @@ const PHRASE_GROUPS: Group[] = [
         english: 'Be strong / stay strong',
         notes: 'One of the most widely known phrases. Used as encouragement in difficult times and as a rallying call.',
         pronunciation: 'kee-ah KAH-hah',
+        forvoSlug: 'kia_kaha',
       },
       {
         maori: 'Kia māia',
@@ -238,6 +253,7 @@ const PHRASE_GROUPS: Group[] = [
         maori: 'Kia tūpato',
         english: 'Be careful / take care',
         pronunciation: 'kee-ah TOO-pah-toh',
+        forvoSlug: 'Kia_Tūpato!',
       },
       {
         maori: 'Āku mihi ki a koe',
@@ -326,15 +342,17 @@ export default function KupuPage() {
                           <p className="text-text-muted text-xs mt-1">{phrase.notes}</p>
                         )}
                       </div>
-                      <a
-                        href={`https://forvo.com/search/${encodeURIComponent(phrase.maori.replace(/[?!.,]/g, '').trim())}/mi/`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-shrink-0 text-xs text-text-muted hover:text-accent transition-colors pt-1"
-                        aria-label={`Hear "${phrase.maori}" on Forvo`}
-                      >
-                        ▶ Forvo
-                      </a>
+                      {phrase.forvoSlug && (
+                        <a
+                          href={`https://forvo.com/word/${phrase.forvoSlug}/#mi`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-shrink-0 text-xs text-text-muted hover:text-accent transition-colors pt-1"
+                          aria-label={`Hear "${phrase.maori}" on Forvo`}
+                        >
+                          ▶ Forvo
+                        </a>
+                      )}
                     </div>
                   </div>
                 ))}
