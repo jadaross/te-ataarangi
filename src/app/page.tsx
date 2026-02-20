@@ -166,9 +166,21 @@ export default function HomePage() {
             <br />
             All Māori content should be reviewed by a fluent reo Māori speaker before use.
           </p>
-          <nav className="flex justify-center gap-4 mt-6 text-sm" aria-label="Footer links">
+          <nav className="flex flex-wrap justify-center gap-4 mt-6 text-sm" aria-label="Footer links">
             <Link href="/nga-ture" className="text-text-muted hover:text-text-secondary">
               Ngā Ture
+            </Link>
+            <Link href="/karakia" className="text-text-muted hover:text-text-secondary" lang="mi">
+              Karakia
+            </Link>
+            <Link href="/kupu" className="text-text-muted hover:text-text-secondary" lang="mi">
+              Kupu o ia rā
+            </Link>
+            <Link href="/pepeha" className="text-text-muted hover:text-text-secondary" lang="mi">
+              Pepeha
+            </Link>
+            <Link href="/waiata" className="text-text-muted hover:text-text-secondary" lang="mi">
+              Waiata
             </Link>
             <Link href="/about" className="text-text-muted hover:text-text-secondary">
               Mō Mātou
