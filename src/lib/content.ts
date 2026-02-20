@@ -24,6 +24,9 @@ export async function getWhiti(id: number): Promise<Whiti> {
     8: () => import(`../../content/whiti/08-whakarite.json`),
     9: () => import(`../../content/whiti/09-tae-me-te-rahi.json`),
     10: () => import(`../../content/whiti/10-rahi-iti.json`),
+    11: () => import(`../../content/whiti/11-kei-runga-kei-raro.json`),
+    12: () => import(`../../content/whiti/12-kei-mua-kei-muri.json`),
+    13: () => import(`../../content/whiti/13-kei-maui-kei-matau.json`),
   }
 
   const loader = whitiMap[id]
@@ -50,6 +53,9 @@ export async function getAllWhiti(): Promise<Whiti[]> {
     () => import(`../../content/whiti/08-whakarite.json`),
     () => import(`../../content/whiti/09-tae-me-te-rahi.json`),
     () => import(`../../content/whiti/10-rahi-iti.json`),
+    () => import(`../../content/whiti/11-kei-runga-kei-raro.json`),
+    () => import(`../../content/whiti/12-kei-mua-kei-muri.json`),
+    () => import(`../../content/whiti/13-kei-maui-kei-matau.json`),
   ]
   for (const loader of loaders) {
     const mod = await loader()

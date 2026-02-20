@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { RakauConfiguration } from '@/types/rakau'
 import { RakauMat } from './RakauMat'
 import { RakauRod } from './RakauRod'
@@ -46,6 +46,17 @@ export function RakauArrangement({
   const skipAnimation = !animate || reduceMotion
   const label = ariaLabel ?? config.description
 
+  // Shuffle which delay slot each rod gets so placement order varies each view
+  const animationOrder = useMemo(() => {
+    const indices = config.rods.map((_, i) => i)
+    for (let i = indices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[indices[i], indices[j]] = [indices[j], indices[i]]
+    }
+    return indices
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [config.id])
+
   return (
     <div className="inline-block">
       <RakauMat
@@ -58,7 +69,7 @@ export function RakauArrangement({
             key={rod.id ?? `rod-${index}`}
             rod={rod}
             focused={focusedRodIds ? focusedRodIds.includes(rod.id ?? '') : false}
-            delayIndex={index}
+            delayIndex={animationOrder[index]}
             skipAnimation={skipAnimation}
           />
         ))}

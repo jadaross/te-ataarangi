@@ -172,6 +172,52 @@
         "He poto, he roa ake, he roa",
         "He roa, he poto, he roa ake"
       ]
+    },
+    {
+      "id": "10-06",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "sb-rahi-karaka",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 14, "height": 8 },
+        "description": "He rākau roa — he rākau karaka",
+        "descriptionEnglish": "A long rod — an orange rod"
+      },
+      "correctAnswer": "He roa te rākau",
+      "words": ["He", "roa", "poto", "nui", "iti", "te", "rākau"],
+      "audioAnswer": {
+        "file": "phrases/he-roa-te-rakau.mp3"
+      }
+    },
+    {
+      "id": "10-07",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "sb-rahi-ma",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 3 }
+          }
+        ],
+        "matSize": { "width": 8, "height": 8 },
+        "description": "He rākau poto — he rākau mā",
+        "descriptionEnglish": "A short rod — a white rod"
+      },
+      "correctAnswer": "He iti te rākau",
+      "words": ["He", "iti", "nui", "roa", "poto", "te", "rākau"],
+      "audioAnswer": {
+        "file": "phrases/he-iti-te-rakau.mp3"
+      }
     }
   ]
 }

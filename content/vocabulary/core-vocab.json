@@ -152,5 +152,68 @@
     "partOfSpeech": "adjective",
     "audio": { "file": "vocabulary/poto.mp3" },
     "lessonFirstAppearance": 7
+  },
+  {
+    "id": "kei",
+    "word": "Kei",
+    "wordRomanised": "kei",
+    "english": "at, located at (present locative particle)",
+    "partOfSpeech": "particle",
+    "audio": { "file": "vocabulary/kei.mp3" },
+    "lessonFirstAppearance": 11
+  },
+  {
+    "id": "runga",
+    "word": "Runga",
+    "wordRomanised": "runga",
+    "english": "above, on top",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/runga.mp3" },
+    "lessonFirstAppearance": 11
+  },
+  {
+    "id": "raro",
+    "word": "Raro",
+    "wordRomanised": "raro",
+    "english": "below, underneath",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/raro.mp3" },
+    "lessonFirstAppearance": 11
+  },
+  {
+    "id": "mua",
+    "word": "Mua",
+    "wordRomanised": "mua",
+    "english": "in front, before",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/mua.mp3" },
+    "lessonFirstAppearance": 12
+  },
+  {
+    "id": "muri",
+    "word": "Muri",
+    "wordRomanised": "muri",
+    "english": "behind, after",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/muri.mp3" },
+    "lessonFirstAppearance": 12
+  },
+  {
+    "id": "maui",
+    "word": "Mauī",
+    "wordRomanised": "maui",
+    "english": "left",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/maui.mp3" },
+    "lessonFirstAppearance": 13
+  },
+  {
+    "id": "matau",
+    "word": "Matau",
+    "wordRomanised": "matau",
+    "english": "right",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/matau.mp3" },
+    "lessonFirstAppearance": 13
   }
 ]

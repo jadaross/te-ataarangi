@@ -1,5 +1,6 @@
 'use client'
 
+import { useMemo } from 'react'
 import type { Exercise } from '@/types/lesson'
 import { RakauArrangement } from '@/components/rakau/RakauArrangement'
 import type { FeedbackState } from './LessonFlow'
@@ -22,13 +23,25 @@ interface ExerciseMultiChoiceProps {
  *
  * All text is in te reo Māori. Min 44px touch targets (WCAG 2.5.5).
  */
+/** Fisher-Yates shuffle — returns a new shuffled array */
+function shuffle<T>(arr: T[]): T[] {
+  const result = [...arr]
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
 export function ExerciseMultiChoice({
   exercise,
   onAnswer,
   feedback,
   disabled,
 }: ExerciseMultiChoiceProps) {
-  const options = exercise.options ?? []
+  // Shuffle options once per exercise mount so the correct answer isn't always first
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const options = useMemo(() => shuffle(exercise.options ?? []), [exercise.id])
 
   return (
     <div className="space-y-6">

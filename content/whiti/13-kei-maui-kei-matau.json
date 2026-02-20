@@ -1,0 +1,217 @@
+{
+  "id": 13,
+  "slug": "kei-maui-kei-matau",
+  "title": "Kei Mauī, Kei Matau",
+  "titleEnglish": "Left and Right",
+  "phase": 1,
+  "theme": "waahi",
+  "vocabularyIds": ["maui", "matau", "kei"],
+  "patternIds": ["kei-maui-matau-te-rakau"],
+  "prerequisites": [1, 2, 3, 4, 5, 11, 12],
+  "exercises": [
+    {
+      "id": "13-01",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "maui-whero-kowhai",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          },
+          {
+            "id": "r2",
+            "colour": "kowhai",
+            "orientation": "horizontal",
+            "position": { "x": 5, "y": 4 }
+          }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "Kei mauī te rākau whero, kei matau te rākau kōwhai",
+        "descriptionEnglish": "The red rod is on the left, the yellow rod is on the right"
+      },
+      "correctAnswer": "Kei mauī te rākau whero",
+      "acceptedVariants": ["Kei mauī te whero"],
+      "audioAnswer": {
+        "file": "phrases/kei-maui-te-rakau-whero.mp3",
+        "duration": 2.0
+      },
+      "options": [
+        "Kei mauī te rākau whero",
+        "Kei mauī te rākau kōwhai",
+        "Kei matau te rākau whero",
+        "Kei matau ngā rākau"
+      ]
+    },
+    {
+      "id": "13-02",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "matau-kahurangi-ma",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "ma",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          },
+          {
+            "id": "r2",
+            "colour": "kahurangi",
+            "orientation": "horizontal",
+            "position": { "x": 4, "y": 4 }
+          }
+        ],
+        "matSize": { "width": 15, "height": 8 },
+        "description": "Kei mauī te rākau mā, kei matau te rākau kahurangi",
+        "descriptionEnglish": "The white rod is on the left, the blue rod is on the right"
+      },
+      "correctAnswer": "Kei matau te rākau kahurangi",
+      "acceptedVariants": ["Kei matau te kahurangi"],
+      "audioAnswer": {
+        "file": "phrases/kei-matau-te-rakau-kahurangi.mp3",
+        "duration": 2.2
+      },
+      "options": [
+        "Kei matau te rākau kahurangi",
+        "Kei matau te rākau mā",
+        "Kei mauī te rākau kahurangi",
+        "Kei raro te rākau kahurangi"
+      ]
+    },
+    {
+      "id": "13-03",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "maui-kakariki-mangu",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          },
+          {
+            "id": "r2",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 6, "y": 4 }
+          }
+        ],
+        "matSize": { "width": 15, "height": 8 },
+        "description": "Kei mauī te rākau kākāriki, kei matau te rākau mangu",
+        "descriptionEnglish": "The light green rod is on the left, the black rod is on the right"
+      },
+      "correctAnswer": "Kei mauī te rākau kākāriki",
+      "acceptedVariants": ["Kei mauī te kākāriki"],
+      "audioAnswer": {
+        "file": "phrases/kei-maui-te-rakau-kakariki.mp3",
+        "duration": 2.2
+      },
+      "options": [
+        "Kei mauī te rākau kākāriki",
+        "Kei mauī te rākau mangu",
+        "Kei matau te rākau kākāriki",
+        "Kei mua te rākau kākāriki"
+      ]
+    },
+    {
+      "id": "13-04",
+      "type": "multi_choice",
+      "rakauConfig": {
+        "id": "matau-karaka-wateri",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "wateri",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          },
+          {
+            "id": "r2",
+            "colour": "karaka",
+            "orientation": "horizontal",
+            "position": { "x": 7, "y": 4 }
+          }
+        ],
+        "matSize": { "width": 18, "height": 8 },
+        "description": "Kei mauī te rākau wāteri, kei matau te rākau karaka",
+        "descriptionEnglish": "The purple rod is on the left, the orange rod is on the right"
+      },
+      "correctAnswer": "Kei matau te rākau karaka",
+      "acceptedVariants": ["Kei matau te karaka"],
+      "audioAnswer": {
+        "file": "phrases/kei-matau-te-rakau-karaka.mp3",
+        "duration": 2.0
+      },
+      "options": [
+        "Kei matau te rākau karaka",
+        "Kei matau te rākau wāteri",
+        "Kei mauī te rākau karaka",
+        "Kei muri te rākau karaka"
+      ]
+    },
+    {
+      "id": "13-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "maui-whero-mangu",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "whero",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          },
+          {
+            "id": "r2",
+            "colour": "mangu",
+            "orientation": "horizontal",
+            "position": { "x": 5, "y": 4 }
+          }
+        ],
+        "matSize": { "width": 14, "height": 8 },
+        "description": "Kei mauī te rākau whero, kei matau te rākau mangu",
+        "descriptionEnglish": "The red rod is on the left, the black rod is on the right"
+      },
+      "correctAnswer": "Kei mauī te rākau whero",
+      "acceptedVariants": ["Kei mauī te whero", "Kei maui te rakau whero"],
+      "audioAnswer": {
+        "file": "phrases/kei-maui-te-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "13-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "matau-parauri-kakariki",
+        "rods": [
+          {
+            "id": "r1",
+            "colour": "kakariki",
+            "orientation": "horizontal",
+            "position": { "x": 2, "y": 4 }
+          },
+          {
+            "id": "r2",
+            "colour": "parauri",
+            "orientation": "horizontal",
+            "position": { "x": 6, "y": 4 }
+          }
+        ],
+        "matSize": { "width": 16, "height": 8 },
+        "description": "Kei mauī te rākau kākāriki, kei matau te rākau parauri",
+        "descriptionEnglish": "The light green rod is on the left, the brown rod is on the right"
+      },
+      "correctAnswer": "Kei matau te rākau parauri",
+      "acceptedVariants": ["Kei matau te parauri", "Kei matau te rakau parauri"],
+      "audioAnswer": {
+        "file": "phrases/kei-matau-te-rakau-parauri.mp3",
+        "duration": 2.2
+      }
+    }
+  ]
+}

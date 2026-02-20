@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
 import type { Whiti } from '@/types/lesson'
 import { useLessonSession } from '@/hooks/useLessonSession'
 import { isCorrectAnswer } from '@/lib/lesson'
@@ -28,8 +28,21 @@ export type FeedbackState = {
  * - Incorrect (1st):  selected option shakes softly → resets after 650ms (silence)
  * - Incorrect (2nd):  correct option is gently revealed in green → advances after 1600ms
  */
+/** Fisher-Yates shuffle — returns a new shuffled array */
+function shuffle<T>(arr: T[]): T[] {
+  const result = [...arr]
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
 export function LessonFlow({ whiti }: LessonFlowProps) {
-  const totalExercises = whiti.exercises.length
+  // Shuffle exercises once per session mount so repeated lessons feel different
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const exercises = useMemo(() => shuffle(whiti.exercises), [whiti.id])
+  const totalExercises = exercises.length
   const session = useLessonSession(totalExercises)
 
   // Feedback display state
@@ -42,7 +55,7 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
   const handleAnswer = useCallback(
     (answer: string) => {
       if (locked) return
-      const exercise = whiti.exercises[session.currentExerciseIndex]
+      const exercise = exercises[session.currentExerciseIndex]
       if (!exercise) return
 
       const correct = isCorrectAnswer(answer, exercise)
@@ -85,12 +98,12 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
         }
       }
     },
-    [locked, whiti.exercises, session],
+    [locked, exercises, session],
   )
 
   if (session.completed) return <LessonComplete />
 
-  const exercise = whiti.exercises[session.currentExerciseIndex]
+  const exercise = exercises[session.currentExerciseIndex]
   if (!exercise) return <LessonComplete />
 
   const current = session.currentExerciseIndex + 1
