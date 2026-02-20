@@ -1,0 +1,178 @@
+{
+  "id": 21,
+  "slug": "e-iwa-e-tekau",
+  "title": "E Iwa, E Tekau",
+  "titleEnglish": "Nine, Ten",
+  "phase": 1,
+  "theme": "nama",
+  "vocabularyIds": ["iwa", "tekau"],
+  "patternIds": ["e-nama-nga-rakau"],
+  "prerequisites": [18, 19, 20],
+  "exercises": [
+    {
+      "id": "21-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "iwa-ma-3x3",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 5 } },
+          { "id": "r7", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 8 } },
+          { "id": "r8", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 8 } },
+          { "id": "r9", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 8 } }
+        ],
+        "matSize": { "width": 9, "height": 11 },
+        "description": "E iwa ngā rākau mā",
+        "descriptionEnglish": "There are nine white rods (3×3 grid)"
+      },
+      "correctAnswer": "E iwa ngā rākau mā",
+      "words": ["E", "He", "iwa", "waru", "tekau", "ngā", "te", "rākau", "tae", "mā", "whero", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-iwa-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "21-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "tekau-ma-5x2",
+        "rods": [
+          { "id": "r1",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2,  "y": 2 } },
+          { "id": "r2",  "colour": "ma", "orientation": "horizontal", "position": { "x": 4,  "y": 2 } },
+          { "id": "r3",  "colour": "ma", "orientation": "horizontal", "position": { "x": 6,  "y": 2 } },
+          { "id": "r4",  "colour": "ma", "orientation": "horizontal", "position": { "x": 8,  "y": 2 } },
+          { "id": "r5",  "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 2 } },
+          { "id": "r6",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2,  "y": 5 } },
+          { "id": "r7",  "colour": "ma", "orientation": "horizontal", "position": { "x": 4,  "y": 5 } },
+          { "id": "r8",  "colour": "ma", "orientation": "horizontal", "position": { "x": 6,  "y": 5 } },
+          { "id": "r9",  "colour": "ma", "orientation": "horizontal", "position": { "x": 8,  "y": 5 } },
+          { "id": "r10", "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 5 } }
+        ],
+        "matSize": { "width": 13, "height": 8 },
+        "description": "E tekau ngā rākau mā",
+        "descriptionEnglish": "There are ten white rods (5×2 grid)"
+      },
+      "correctAnswer": "E tekau ngā rākau mā",
+      "words": ["E", "He", "tekau", "iwa", "waru", "ngā", "te", "rākau", "tae", "mā", "whero", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-tekau-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "21-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "iwa-whero-3x3",
+        "rods": [
+          { "id": "r1", "colour": "whero", "orientation": "horizontal", "position": { "x": 1, "y": 2 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 7, "y": 2 } },
+          { "id": "r4", "colour": "whero", "orientation": "horizontal", "position": { "x": 1, "y": 5 } },
+          { "id": "r5", "colour": "whero", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r6", "colour": "whero", "orientation": "horizontal", "position": { "x": 7, "y": 5 } },
+          { "id": "r7", "colour": "whero", "orientation": "horizontal", "position": { "x": 1, "y": 8 } },
+          { "id": "r8", "colour": "whero", "orientation": "horizontal", "position": { "x": 4, "y": 8 } },
+          { "id": "r9", "colour": "whero", "orientation": "horizontal", "position": { "x": 7, "y": 8 } }
+        ],
+        "matSize": { "width": 11, "height": 11 },
+        "description": "E iwa ngā rākau whero",
+        "descriptionEnglish": "There are nine red rods (3×3 grid)"
+      },
+      "correctAnswer": "E iwa ngā rākau whero",
+      "words": ["E", "He", "iwa", "tekau", "waru", "ngā", "te", "rākau", "tae", "whero", "mā", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-iwa-nga-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "21-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "tekau-ma-2x5",
+        "rods": [
+          { "id": "r1",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2  } },
+          { "id": "r2",  "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 2  } },
+          { "id": "r3",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 4  } },
+          { "id": "r4",  "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 4  } },
+          { "id": "r5",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 6  } },
+          { "id": "r6",  "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 6  } },
+          { "id": "r7",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 8  } },
+          { "id": "r8",  "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 8  } },
+          { "id": "r9",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 10 } },
+          { "id": "r10", "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 10 } }
+        ],
+        "matSize": { "width": 8, "height": 13 },
+        "description": "E tekau ngā rākau mā",
+        "descriptionEnglish": "There are ten white rods (2×5 grid)"
+      },
+      "correctAnswer": "E tekau ngā rākau mā",
+      "words": ["E", "He", "tekau", "iwa", "waru", "ngā", "te", "rākau", "tae", "mā", "kōwhai", "kākāriki"],
+      "audioAnswer": {
+        "file": "phrases/e-tekau-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "21-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "iwa-ma-b",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 5 } },
+          { "id": "r7", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 8 } },
+          { "id": "r8", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 8 } },
+          { "id": "r9", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 8 } }
+        ],
+        "matSize": { "width": 9, "height": 11 },
+        "description": "E iwa ngā rākau mā",
+        "descriptionEnglish": "There are nine white rods"
+      },
+      "correctAnswer": "E iwa ngā rākau mā",
+      "acceptedVariants": ["E iwa nga rakau ma"],
+      "audioAnswer": {
+        "file": "phrases/e-iwa-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "21-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "tekau-ma-c",
+        "rods": [
+          { "id": "r1",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2,  "y": 2 } },
+          { "id": "r2",  "colour": "ma", "orientation": "horizontal", "position": { "x": 4,  "y": 2 } },
+          { "id": "r3",  "colour": "ma", "orientation": "horizontal", "position": { "x": 6,  "y": 2 } },
+          { "id": "r4",  "colour": "ma", "orientation": "horizontal", "position": { "x": 8,  "y": 2 } },
+          { "id": "r5",  "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 2 } },
+          { "id": "r6",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2,  "y": 5 } },
+          { "id": "r7",  "colour": "ma", "orientation": "horizontal", "position": { "x": 4,  "y": 5 } },
+          { "id": "r8",  "colour": "ma", "orientation": "horizontal", "position": { "x": 6,  "y": 5 } },
+          { "id": "r9",  "colour": "ma", "orientation": "horizontal", "position": { "x": 8,  "y": 5 } },
+          { "id": "r10", "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 5 } }
+        ],
+        "matSize": { "width": 13, "height": 8 },
+        "description": "E tekau ngā rākau mā",
+        "descriptionEnglish": "There are ten white rods"
+      },
+      "correctAnswer": "E tekau ngā rākau mā",
+      "acceptedVariants": ["E tekau nga rakau ma"],
+      "audioAnswer": {
+        "file": "phrases/e-tekau-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    }
+  ]
+}

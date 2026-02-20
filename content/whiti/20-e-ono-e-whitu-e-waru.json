@@ -1,0 +1,163 @@
+{
+  "id": 20,
+  "slug": "e-ono-e-whitu-e-waru",
+  "title": "E Ono, E Whitu, E Waru",
+  "titleEnglish": "Six, Seven, Eight",
+  "phase": 1,
+  "theme": "nama",
+  "vocabularyIds": ["ono", "whitu", "waru"],
+  "patternIds": ["e-nama-nga-rakau"],
+  "prerequisites": [18, 19],
+  "exercises": [
+    {
+      "id": "20-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "ono-ma",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 5 } }
+        ],
+        "matSize": { "width": 9, "height": 8 },
+        "description": "E ono ngā rākau mā",
+        "descriptionEnglish": "There are six white rods (3×2 grid)"
+      },
+      "correctAnswer": "E ono ngā rākau mā",
+      "words": ["E", "He", "ono", "rima", "whitu", "ngā", "te", "rākau", "tae", "mā", "whero", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-ono-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "20-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "whitu-ma",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 8, "y": 2 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 3, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 5 } },
+          { "id": "r7", "colour": "ma", "orientation": "horizontal", "position": { "x": 7, "y": 5 } }
+        ],
+        "matSize": { "width": 11, "height": 8 },
+        "description": "E whitu ngā rākau mā",
+        "descriptionEnglish": "There are seven white rods (4 on top, 3 below)"
+      },
+      "correctAnswer": "E whitu ngā rākau mā",
+      "words": ["E", "He", "whitu", "ono", "waru", "ngā", "te", "rākau", "tae", "mā", "whero", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-whitu-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "20-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "waru-ma",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 8, "y": 2 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r7", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 5 } },
+          { "id": "r8", "colour": "ma", "orientation": "horizontal", "position": { "x": 8, "y": 5 } }
+        ],
+        "matSize": { "width": 11, "height": 8 },
+        "description": "E waru ngā rākau mā",
+        "descriptionEnglish": "There are eight white rods (4×2 grid)"
+      },
+      "correctAnswer": "E waru ngā rākau mā",
+      "words": ["E", "He", "waru", "whitu", "iwa", "ngā", "te", "rākau", "tae", "mā", "kōwhai", "kākāriki"],
+      "audioAnswer": {
+        "file": "phrases/e-waru-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "20-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "ono-whero",
+        "rods": [
+          { "id": "r1", "colour": "whero", "orientation": "horizontal", "position": { "x": 1, "y": 2 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 7, "y": 2 } },
+          { "id": "r4", "colour": "whero", "orientation": "horizontal", "position": { "x": 1, "y": 5 } },
+          { "id": "r5", "colour": "whero", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r6", "colour": "whero", "orientation": "horizontal", "position": { "x": 7, "y": 5 } }
+        ],
+        "matSize": { "width": 11, "height": 8 },
+        "description": "E ono ngā rākau whero",
+        "descriptionEnglish": "There are six red rods (3×2 grid)"
+      },
+      "correctAnswer": "E ono ngā rākau whero",
+      "words": ["E", "He", "ono", "rima", "whitu", "ngā", "te", "rākau", "tae", "whero", "mā", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-ono-nga-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "20-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "whitu-kakariki",
+        "rods": [
+          { "id": "r1", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 1, "y": 2 } },
+          { "id": "r2", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 5, "y": 2 } },
+          { "id": "r3", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 9, "y": 2 } },
+          { "id": "r4", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 13, "y": 2 } },
+          { "id": "r5", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 3, "y": 5 } },
+          { "id": "r6", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 7, "y": 5 } },
+          { "id": "r7", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 11, "y": 5 } }
+        ],
+        "matSize": { "width": 17, "height": 8 },
+        "description": "E whitu ngā rākau kākāriki",
+        "descriptionEnglish": "There are seven light green rods (4 on top, 3 below)"
+      },
+      "correctAnswer": "E whitu ngā rākau kākāriki",
+      "acceptedVariants": ["E whitu nga rakau kakariki"],
+      "audioAnswer": {
+        "file": "phrases/e-whitu-nga-rakau-kakariki.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "20-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "waru-ma-b",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 8, "y": 2 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r7", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 5 } },
+          { "id": "r8", "colour": "ma", "orientation": "horizontal", "position": { "x": 8, "y": 5 } }
+        ],
+        "matSize": { "width": 11, "height": 8 },
+        "description": "E waru ngā rākau mā",
+        "descriptionEnglish": "There are eight white rods"
+      },
+      "correctAnswer": "E waru ngā rākau mā",
+      "acceptedVariants": ["E waru nga rakau ma"],
+      "audioAnswer": {
+        "file": "phrases/e-waru-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    }
+  ]
+}

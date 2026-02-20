@@ -1,0 +1,133 @@
+{
+  "id": 14,
+  "slug": "kei-taha",
+  "title": "Kei Taha",
+  "titleEnglish": "Beside",
+  "phase": 1,
+  "theme": "waahi",
+  "vocabularyIds": ["taha"],
+  "patternIds": ["kei-taha-te-rakau"],
+  "prerequisites": [11, 12, 13],
+  "exercises": [
+    {
+      "id": "14-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "taha-karaka-whero",
+        "rods": [
+          { "id": "r1", "colour": "karaka", "orientation": "horizontal", "position": { "x": 1, "y": 4 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 12, "y": 4 } }
+        ],
+        "matSize": { "width": 16, "height": 8 },
+        "description": "Kei taha te rākau whero, kei taha o te rākau karaka",
+        "descriptionEnglish": "The red rod is beside the orange rod (orange is the reference)"
+      },
+      "correctAnswer": "Kei taha te rākau whero",
+      "words": ["Kei", "He", "taha", "mauī", "matau", "te", "ngā", "rākau", "tae", "whero", "karaka", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-taha-te-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "14-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "taha-kahurangi-ma",
+        "rods": [
+          { "id": "r1", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 3, "y": 4 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 1, "y": 4 } }
+        ],
+        "matSize": { "width": 14, "height": 8 },
+        "description": "Kei taha te rākau mā, kei taha o te rākau kahurangi",
+        "descriptionEnglish": "The white rod is beside the blue rod (white is shorter, on the left)"
+      },
+      "correctAnswer": "Kei taha te rākau mā",
+      "words": ["Kei", "He", "taha", "runga", "raro", "te", "ngā", "rākau", "tae", "mā", "kahurangi", "mangu"],
+      "audioAnswer": {
+        "file": "phrases/kei-taha-te-rakau-ma.mp3",
+        "duration": 1.8
+      }
+    },
+    {
+      "id": "14-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "taha-mangu-kowhai",
+        "rods": [
+          { "id": "r1", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 4 } },
+          { "id": "r2", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 10, "y": 4 } }
+        ],
+        "matSize": { "width": 17, "height": 8 },
+        "description": "Kei taha te rākau kōwhai, kei taha o te rākau mangu",
+        "descriptionEnglish": "The yellow rod is beside the black rod"
+      },
+      "correctAnswer": "Kei taha te rākau kōwhai",
+      "words": ["Kei", "He", "taha", "mua", "muri", "te", "ngā", "rākau", "tae", "kōwhai", "mangu", "whero"],
+      "audioAnswer": {
+        "file": "phrases/kei-taha-te-rakau-kowhai.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "14-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "taha-parauri-kakariki",
+        "rods": [
+          { "id": "r1", "colour": "parauri", "orientation": "horizontal", "position": { "x": 5, "y": 4 } },
+          { "id": "r2", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 2, "y": 4 } }
+        ],
+        "matSize": { "width": 15, "height": 8 },
+        "description": "Kei taha te rākau kākāriki, kei taha o te rākau parauri",
+        "descriptionEnglish": "The green rod is beside the brown rod (green is shorter, on the left)"
+      },
+      "correctAnswer": "Kei taha te rākau kākāriki",
+      "words": ["Kei", "He", "taha", "runga", "raro", "te", "ngā", "rākau", "tae", "kākāriki", "parauri", "wāteri"],
+      "audioAnswer": {
+        "file": "phrases/kei-taha-te-rakau-kakariki.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "14-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "taha-wateri-karaka",
+        "rods": [
+          { "id": "r1", "colour": "wateri", "orientation": "horizontal", "position": { "x": 2, "y": 4 } },
+          { "id": "r2", "colour": "karaka", "orientation": "horizontal", "position": { "x": 7, "y": 4 } }
+        ],
+        "matSize": { "width": 19, "height": 8 },
+        "description": "Kei taha te rākau karaka, kei taha o te rākau wāteri",
+        "descriptionEnglish": "The orange rod is beside the purple rod (orange is longer, on the right)"
+      },
+      "correctAnswer": "Kei taha te rākau karaka",
+      "acceptedVariants": ["Kei taha te karaka", "Kei taha te rakau karaka"],
+      "audioAnswer": {
+        "file": "phrases/kei-taha-te-rakau-karaka.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "14-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "taha-kakariki-nui-mangu",
+        "rods": [
+          { "id": "r1", "colour": "kakariki-nui", "orientation": "horizontal", "position": { "x": 1, "y": 4 } },
+          { "id": "r2", "colour": "mangu", "orientation": "horizontal", "position": { "x": 8, "y": 4 } }
+        ],
+        "matSize": { "width": 17, "height": 8 },
+        "description": "Kei taha te rākau mangu, kei taha o te rākau kākāriki nui",
+        "descriptionEnglish": "The black rod is beside the dark green rod"
+      },
+      "correctAnswer": "Kei taha te rākau mangu",
+      "acceptedVariants": ["Kei taha te mangu", "Kei taha te rakau mangu"],
+      "audioAnswer": {
+        "file": "phrases/kei-taha-te-rakau-mangu.mp3",
+        "duration": 2.0
+      }
+    }
+  ]
+}

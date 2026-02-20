@@ -27,6 +27,15 @@ export async function getWhiti(id: number): Promise<Whiti> {
     11: () => import(`../../content/whiti/11-kei-runga-kei-raro.json`),
     12: () => import(`../../content/whiti/12-kei-mua-kei-muri.json`),
     13: () => import(`../../content/whiti/13-kei-maui-kei-matau.json`),
+    14: () => import(`../../content/whiti/14-kei-taha.json`),
+    15: () => import(`../../content/whiti/15-kei-waenganui.json`),
+    16: () => import(`../../content/whiti/16-kei-roto-kei-waho.json`),
+    17: () => import(`../../content/whiti/17-wahi-arotake.json`),
+    18: () => import(`../../content/whiti/18-e-tahi-e-rua-e-toru.json`),
+    19: () => import(`../../content/whiti/19-e-wha-e-rima.json`),
+    20: () => import(`../../content/whiti/20-e-ono-e-whitu-e-waru.json`),
+    21: () => import(`../../content/whiti/21-e-iwa-e-tekau.json`),
+    22: () => import(`../../content/whiti/22-nama-arotake.json`),
   }
 
   const loader = whitiMap[id]
@@ -56,6 +65,15 @@ export async function getAllWhiti(): Promise<Whiti[]> {
     () => import(`../../content/whiti/11-kei-runga-kei-raro.json`),
     () => import(`../../content/whiti/12-kei-mua-kei-muri.json`),
     () => import(`../../content/whiti/13-kei-maui-kei-matau.json`),
+    () => import(`../../content/whiti/14-kei-taha.json`),
+    () => import(`../../content/whiti/15-kei-waenganui.json`),
+    () => import(`../../content/whiti/16-kei-roto-kei-waho.json`),
+    () => import(`../../content/whiti/17-wahi-arotake.json`),
+    () => import(`../../content/whiti/18-e-tahi-e-rua-e-toru.json`),
+    () => import(`../../content/whiti/19-e-wha-e-rima.json`),
+    () => import(`../../content/whiti/20-e-ono-e-whitu-e-waru.json`),
+    () => import(`../../content/whiti/21-e-iwa-e-tekau.json`),
+    () => import(`../../content/whiti/22-nama-arotake.json`),
   ]
   for (const loader of loaders) {
     const mod = await loader()

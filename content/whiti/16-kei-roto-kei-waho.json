@@ -1,0 +1,139 @@
+{
+  "id": 16,
+  "slug": "kei-roto-kei-waho",
+  "title": "Kei Roto, Kei Waho",
+  "titleEnglish": "Inside and Outside",
+  "phase": 1,
+  "theme": "waahi",
+  "vocabularyIds": ["roto", "waho"],
+  "patternIds": ["kei-roto-waho-te-rakau"],
+  "prerequisites": [11, 12, 13, 14, 15],
+  "exercises": [
+    {
+      "id": "16-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "roto-mangu-pillars-whero",
+        "rods": [
+          { "id": "r1", "colour": "mangu", "orientation": "vertical", "position": { "x": 3, "y": 2 } },
+          { "id": "r2", "colour": "mangu", "orientation": "vertical", "position": { "x": 10, "y": 2 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 5, "y": 5 } }
+        ],
+        "matSize": { "width": 14, "height": 13 },
+        "description": "Kei roto te rākau whero",
+        "descriptionEnglish": "The red rod is inside (between the two black pillars)"
+      },
+      "correctAnswer": "Kei roto te rākau whero",
+      "words": ["Kei", "He", "roto", "waho", "taha", "te", "ngā", "rākau", "tae", "whero", "mangu", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-roto-te-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "16-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "waho-kahurangi-pillars-kowhai",
+        "rods": [
+          { "id": "r1", "colour": "kahurangi", "orientation": "vertical", "position": { "x": 7, "y": 2 } },
+          { "id": "r2", "colour": "kahurangi", "orientation": "vertical", "position": { "x": 14, "y": 2 } },
+          { "id": "r3", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 1, "y": 5 } }
+        ],
+        "matSize": { "width": 17, "height": 14 },
+        "description": "Kei waho te rākau kōwhai",
+        "descriptionEnglish": "The yellow rod is outside (to the left of the blue pillars)"
+      },
+      "correctAnswer": "Kei waho te rākau kōwhai",
+      "words": ["Kei", "He", "waho", "roto", "taha", "te", "ngā", "rākau", "tae", "kōwhai", "kahurangi", "mangu"],
+      "audioAnswer": {
+        "file": "phrases/kei-waho-te-rakau-kowhai.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "16-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "roto-parauri-pillars-ma",
+        "rods": [
+          { "id": "r1", "colour": "parauri", "orientation": "vertical", "position": { "x": 3, "y": 2 } },
+          { "id": "r2", "colour": "parauri", "orientation": "vertical", "position": { "x": 10, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 5 } }
+        ],
+        "matSize": { "width": 13, "height": 13 },
+        "description": "Kei roto te rākau mā",
+        "descriptionEnglish": "The white rod is inside (between the brown pillars)"
+      },
+      "correctAnswer": "Kei roto te rākau mā",
+      "words": ["Kei", "He", "roto", "waho", "waenganui", "te", "ngā", "rākau", "tae", "mā", "parauri", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-roto-te-rakau-ma.mp3",
+        "duration": 1.8
+      }
+    },
+    {
+      "id": "16-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "waho-kowhai-pillars-kakariki",
+        "rods": [
+          { "id": "r1", "colour": "kowhai", "orientation": "vertical", "position": { "x": 5, "y": 2 } },
+          { "id": "r2", "colour": "kowhai", "orientation": "vertical", "position": { "x": 11, "y": 2 } },
+          { "id": "r3", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 13, "y": 4 } }
+        ],
+        "matSize": { "width": 18, "height": 10 },
+        "description": "Kei waho te rākau kākāriki",
+        "descriptionEnglish": "The green rod is outside (to the right of the yellow pillars)"
+      },
+      "correctAnswer": "Kei waho te rākau kākāriki",
+      "words": ["Kei", "He", "waho", "roto", "taha", "te", "ngā", "rākau", "tae", "kākāriki", "kōwhai", "mangu"],
+      "audioAnswer": {
+        "file": "phrases/kei-waho-te-rakau-kakariki.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "16-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "roto-mangu-pillars-kowhai",
+        "rods": [
+          { "id": "r1", "colour": "mangu", "orientation": "vertical", "position": { "x": 3, "y": 2 } },
+          { "id": "r2", "colour": "mangu", "orientation": "vertical", "position": { "x": 10, "y": 2 } },
+          { "id": "r3", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 4, "y": 5 } }
+        ],
+        "matSize": { "width": 13, "height": 13 },
+        "description": "Kei roto te rākau kōwhai",
+        "descriptionEnglish": "The yellow rod is inside (between the black pillars)"
+      },
+      "correctAnswer": "Kei roto te rākau kōwhai",
+      "acceptedVariants": ["Kei roto te kōwhai", "Kei roto te rakau kowhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-roto-te-rakau-kowhai.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "16-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "waho-kowhai-pillars-whero",
+        "rods": [
+          { "id": "r1", "colour": "kowhai", "orientation": "vertical", "position": { "x": 6, "y": 2 } },
+          { "id": "r2", "colour": "kowhai", "orientation": "vertical", "position": { "x": 12, "y": 2 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 4 } }
+        ],
+        "matSize": { "width": 16, "height": 10 },
+        "description": "Kei waho te rākau whero",
+        "descriptionEnglish": "The red rod is outside (to the left of the yellow pillars)"
+      },
+      "correctAnswer": "Kei waho te rākau whero",
+      "acceptedVariants": ["Kei waho te whero", "Kei waho te rakau whero"],
+      "audioAnswer": {
+        "file": "phrases/kei-waho-te-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    }
+  ]
+}

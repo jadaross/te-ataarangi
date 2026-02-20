@@ -1,0 +1,136 @@
+{
+  "id": 17,
+  "slug": "wahi-arotake",
+  "title": "Wāhi Arotake",
+  "titleEnglish": "Positions Review",
+  "phase": 1,
+  "theme": "waahi",
+  "vocabularyIds": ["runga", "raro", "mua", "muri", "maui", "matau", "taha", "waenganui", "roto", "waho"],
+  "patternIds": ["kei-waahi-te-rakau"],
+  "prerequisites": [11, 12, 13, 14, 15, 16],
+  "exercises": [
+    {
+      "id": "17-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-runga-kahurangi-mangu",
+        "rods": [
+          { "id": "r1", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 6 } }
+        ],
+        "matSize": { "width": 13, "height": 10 },
+        "description": "Kei runga te rākau kahurangi, kei raro te rākau mangu",
+        "descriptionEnglish": "The blue rod is above, the black rod is below"
+      },
+      "correctAnswer": "Kei runga te rākau kahurangi",
+      "words": ["Kei", "He", "runga", "raro", "taha", "te", "ngā", "rākau", "tae", "kahurangi", "mangu", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-runga-te-rakau-kahurangi.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "17-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-matau-kakariki-karaka",
+        "rods": [
+          { "id": "r1", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 2, "y": 4 } },
+          { "id": "r2", "colour": "karaka", "orientation": "horizontal", "position": { "x": 6, "y": 4 } }
+        ],
+        "matSize": { "width": 18, "height": 8 },
+        "description": "Kei mauī te rākau kākāriki, kei matau te rākau karaka",
+        "descriptionEnglish": "The green rod is on the left, the orange rod is on the right"
+      },
+      "correctAnswer": "Kei matau te rākau karaka",
+      "words": ["Kei", "He", "matau", "mauī", "waenganui", "te", "ngā", "rākau", "tae", "karaka", "kākāriki", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-matau-te-rakau-karaka.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "17-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-waenganui-wateri-kowhai-wateri",
+        "rods": [
+          { "id": "r1", "colour": "wateri", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "wateri", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 9, "height": 11 },
+        "description": "Kei waenganui te rākau kōwhai",
+        "descriptionEnglish": "The yellow rod is in the middle (between two purple rods)"
+      },
+      "correctAnswer": "Kei waenganui te rākau kōwhai",
+      "words": ["Kei", "He", "waenganui", "taha", "runga", "te", "ngā", "rākau", "tae", "kōwhai", "wāteri", "whero"],
+      "audioAnswer": {
+        "file": "phrases/kei-waenganui-te-rakau-kowhai.mp3",
+        "duration": 2.4
+      }
+    },
+    {
+      "id": "17-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-roto-mangu-ma",
+        "rods": [
+          { "id": "r1", "colour": "mangu", "orientation": "vertical", "position": { "x": 3, "y": 2 } },
+          { "id": "r2", "colour": "mangu", "orientation": "vertical", "position": { "x": 9, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 5 } }
+        ],
+        "matSize": { "width": 13, "height": 13 },
+        "description": "Kei roto te rākau mā",
+        "descriptionEnglish": "The white rod is inside (between the black pillars)"
+      },
+      "correctAnswer": "Kei roto te rākau mā",
+      "words": ["Kei", "He", "roto", "waho", "taha", "te", "ngā", "rākau", "tae", "mā", "mangu", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-roto-te-rakau-ma.mp3",
+        "duration": 1.8
+      }
+    },
+    {
+      "id": "17-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "review-muri-kakariki-karaka",
+        "rods": [
+          { "id": "r1", "colour": "karaka", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 2, "y": 7 } }
+        ],
+        "matSize": { "width": 14, "height": 11 },
+        "description": "Kei muri te rākau karaka, kei mua te rākau kākāriki",
+        "descriptionEnglish": "The orange rod is behind (far), the green rod is in front (near)"
+      },
+      "correctAnswer": "Kei muri te rākau karaka",
+      "acceptedVariants": ["Kei muri te karaka", "Kei muri te rakau karaka"],
+      "audioAnswer": {
+        "file": "phrases/kei-muri-te-rakau-karaka.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "17-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "review-waho-kowhai-whero",
+        "rods": [
+          { "id": "r1", "colour": "kowhai", "orientation": "vertical", "position": { "x": 6, "y": 2 } },
+          { "id": "r2", "colour": "kowhai", "orientation": "vertical", "position": { "x": 12, "y": 2 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 4 } }
+        ],
+        "matSize": { "width": 16, "height": 10 },
+        "description": "Kei waho te rākau whero",
+        "descriptionEnglish": "The red rod is outside (to the left of the yellow pillars)"
+      },
+      "correctAnswer": "Kei waho te rākau whero",
+      "acceptedVariants": ["Kei waho te whero", "Kei waho te rakau whero"],
+      "audioAnswer": {
+        "file": "phrases/kei-waho-te-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    }
+  ]
+}

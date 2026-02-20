@@ -215,5 +215,131 @@
     "partOfSpeech": "noun",
     "audio": { "file": "vocabulary/matau.mp3" },
     "lessonFirstAppearance": 13
+  },
+  {
+    "id": "taha",
+    "word": "Taha",
+    "wordRomanised": "taha",
+    "english": "side, beside",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/taha.mp3" },
+    "lessonFirstAppearance": 14
+  },
+  {
+    "id": "waenganui",
+    "word": "Waenganui",
+    "wordRomanised": "waenganui",
+    "english": "middle, centre",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/waenganui.mp3" },
+    "lessonFirstAppearance": 15
+  },
+  {
+    "id": "roto",
+    "word": "Roto",
+    "wordRomanised": "roto",
+    "english": "inside",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/roto.mp3" },
+    "lessonFirstAppearance": 16
+  },
+  {
+    "id": "waho",
+    "word": "Waho",
+    "wordRomanised": "waho",
+    "english": "outside",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/waho.mp3" },
+    "lessonFirstAppearance": 16
+  },
+  {
+    "id": "tahi",
+    "word": "Tahi",
+    "wordRomanised": "tahi",
+    "english": "one",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/tahi.mp3" },
+    "lessonFirstAppearance": 18
+  },
+  {
+    "id": "rua",
+    "word": "Rua",
+    "wordRomanised": "rua",
+    "english": "two",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/rua.mp3" },
+    "lessonFirstAppearance": 18
+  },
+  {
+    "id": "toru",
+    "word": "Toru",
+    "wordRomanised": "toru",
+    "english": "three",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/toru.mp3" },
+    "lessonFirstAppearance": 18
+  },
+  {
+    "id": "wha",
+    "word": "Whā",
+    "wordRomanised": "wha",
+    "english": "four",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/wha.mp3" },
+    "lessonFirstAppearance": 19
+  },
+  {
+    "id": "rima",
+    "word": "Rima",
+    "wordRomanised": "rima",
+    "english": "five",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/rima.mp3" },
+    "lessonFirstAppearance": 19
+  },
+  {
+    "id": "ono",
+    "word": "Ono",
+    "wordRomanised": "ono",
+    "english": "six",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/ono.mp3" },
+    "lessonFirstAppearance": 20
+  },
+  {
+    "id": "whitu",
+    "word": "Whitu",
+    "wordRomanised": "whitu",
+    "english": "seven",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/whitu.mp3" },
+    "lessonFirstAppearance": 20
+  },
+  {
+    "id": "waru",
+    "word": "Waru",
+    "wordRomanised": "waru",
+    "english": "eight",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/waru.mp3" },
+    "lessonFirstAppearance": 20
+  },
+  {
+    "id": "iwa",
+    "word": "Iwa",
+    "wordRomanised": "iwa",
+    "english": "nine",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/iwa.mp3" },
+    "lessonFirstAppearance": 21
+  },
+  {
+    "id": "tekau",
+    "word": "Tekau",
+    "wordRomanised": "tekau",
+    "english": "ten",
+    "partOfSpeech": "noun",
+    "audio": { "file": "vocabulary/tekau.mp3" },
+    "lessonFirstAppearance": 21
   }
 ]

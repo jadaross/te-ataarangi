@@ -1,0 +1,148 @@
+{
+  "id": 19,
+  "slug": "e-wha-e-rima",
+  "title": "E Whā, E Rima",
+  "titleEnglish": "Four, Five",
+  "phase": 1,
+  "theme": "nama",
+  "vocabularyIds": ["wha", "rima"],
+  "patternIds": ["e-nama-nga-rakau"],
+  "prerequisites": [18],
+  "exercises": [
+    {
+      "id": "19-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "wha-whero",
+        "rods": [
+          { "id": "r1", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 5, "y": 2 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r4", "colour": "whero", "orientation": "horizontal", "position": { "x": 5, "y": 5 } }
+        ],
+        "matSize": { "width": 9, "height": 8 },
+        "description": "E whā ngā rākau whero",
+        "descriptionEnglish": "There are four red rods (2×2 grid)"
+      },
+      "correctAnswer": "E whā ngā rākau whero",
+      "words": ["E", "He", "whā", "toru", "rima", "ngā", "te", "rākau", "tae", "whero", "mā", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-wha-nga-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "19-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "rima-ma-row",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 4 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 4 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 4 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 8, "y": 4 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 4 } }
+        ],
+        "matSize": { "width": 13, "height": 8 },
+        "description": "E rima ngā rākau mā",
+        "descriptionEnglish": "There are five white rods (in a row)"
+      },
+      "correctAnswer": "E rima ngā rākau mā",
+      "words": ["E", "He", "rima", "whā", "ono", "ngā", "te", "rākau", "tae", "mā", "whero", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-rima-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "19-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "wha-kowhai",
+        "rods": [
+          { "id": "r1", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 9, "y": 2 } },
+          { "id": "r3", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 2, "y": 6 } },
+          { "id": "r4", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 9, "y": 6 } }
+        ],
+        "matSize": { "width": 16, "height": 10 },
+        "description": "E whā ngā rākau kōwhai",
+        "descriptionEnglish": "There are four yellow rods (at the corners)"
+      },
+      "correctAnswer": "E whā ngā rākau kōwhai",
+      "words": ["E", "He", "whā", "toru", "rima", "ngā", "te", "rākau", "tae", "kōwhai", "whero", "mangu"],
+      "audioAnswer": {
+        "file": "phrases/e-wha-nga-rakau-kowhai.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "19-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "rima-kakariki",
+        "rods": [
+          { "id": "r1", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r3", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 10, "y": 2 } },
+          { "id": "r4", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r5", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 8, "y": 5 } }
+        ],
+        "matSize": { "width": 15, "height": 9 },
+        "description": "E rima ngā rākau kākāriki",
+        "descriptionEnglish": "There are five light green rods (3 on top, 2 below)"
+      },
+      "correctAnswer": "E rima ngā rākau kākāriki",
+      "words": ["E", "He", "rima", "whā", "ono", "ngā", "te", "rākau", "tae", "kākāriki", "mā", "whero"],
+      "audioAnswer": {
+        "file": "phrases/e-rima-nga-rakau-kakariki.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "19-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "wha-mangu",
+        "rods": [
+          { "id": "r1", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "mangu", "orientation": "horizontal", "position": { "x": 10, "y": 2 } },
+          { "id": "r3", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 6 } },
+          { "id": "r4", "colour": "mangu", "orientation": "horizontal", "position": { "x": 10, "y": 6 } }
+        ],
+        "matSize": { "width": 19, "height": 10 },
+        "description": "E whā ngā rākau mangu",
+        "descriptionEnglish": "There are four black rods"
+      },
+      "correctAnswer": "E whā ngā rākau mangu",
+      "acceptedVariants": ["E wha nga rakau mangu"],
+      "audioAnswer": {
+        "file": "phrases/e-wha-nga-rakau-mangu.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "19-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "rima-whero",
+        "rods": [
+          { "id": "r1", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 5, "y": 2 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 8, "y": 2 } },
+          { "id": "r4", "colour": "whero", "orientation": "horizontal", "position": { "x": 3, "y": 5 } },
+          { "id": "r5", "colour": "whero", "orientation": "horizontal", "position": { "x": 6, "y": 5 } }
+        ],
+        "matSize": { "width": 12, "height": 8 },
+        "description": "E rima ngā rākau whero",
+        "descriptionEnglish": "There are five red rods (3 on top, 2 below)"
+      },
+      "correctAnswer": "E rima ngā rākau whero",
+      "acceptedVariants": ["E rima nga rakau whero"],
+      "audioAnswer": {
+        "file": "phrases/e-rima-nga-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    }
+  ]
+}

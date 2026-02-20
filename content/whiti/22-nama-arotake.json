@@ -1,0 +1,156 @@
+{
+  "id": 22,
+  "slug": "nama-arotake",
+  "title": "Nama Arotake",
+  "titleEnglish": "Numbers Review",
+  "phase": 1,
+  "theme": "nama",
+  "vocabularyIds": ["tahi", "rua", "toru", "wha", "rima", "ono", "whitu", "waru", "iwa", "tekau"],
+  "patternIds": ["e-nama-nga-rakau"],
+  "prerequisites": [18, 19, 20, 21],
+  "exercises": [
+    {
+      "id": "22-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-rima-ma",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2,  "y": 4 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4,  "y": 4 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6,  "y": 4 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 8,  "y": 4 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 4 } }
+        ],
+        "matSize": { "width": 13, "height": 8 },
+        "description": "E rima ngā rākau mā",
+        "descriptionEnglish": "There are five white rods"
+      },
+      "correctAnswer": "E rima ngā rākau mā",
+      "words": ["E", "He", "rima", "whā", "ono", "ngā", "te", "rākau", "tae", "mā", "whero", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-rima-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "22-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-tahi-kahurangi",
+        "rods": [
+          { "id": "r1", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 2, "y": 4 } }
+        ],
+        "matSize": { "width": 13, "height": 8 },
+        "description": "E tahi te rākau kahurangi",
+        "descriptionEnglish": "There is one blue rod"
+      },
+      "correctAnswer": "E tahi te rākau kahurangi",
+      "words": ["E", "He", "tahi", "rua", "tekau", "te", "ngā", "rākau", "tae", "kahurangi", "kōwhai", "mangu"],
+      "audioAnswer": {
+        "file": "phrases/e-tahi-te-rakau-kahurangi.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "22-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-tekau-ma",
+        "rods": [
+          { "id": "r1",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2,  "y": 2 } },
+          { "id": "r2",  "colour": "ma", "orientation": "horizontal", "position": { "x": 4,  "y": 2 } },
+          { "id": "r3",  "colour": "ma", "orientation": "horizontal", "position": { "x": 6,  "y": 2 } },
+          { "id": "r4",  "colour": "ma", "orientation": "horizontal", "position": { "x": 8,  "y": 2 } },
+          { "id": "r5",  "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 2 } },
+          { "id": "r6",  "colour": "ma", "orientation": "horizontal", "position": { "x": 2,  "y": 5 } },
+          { "id": "r7",  "colour": "ma", "orientation": "horizontal", "position": { "x": 4,  "y": 5 } },
+          { "id": "r8",  "colour": "ma", "orientation": "horizontal", "position": { "x": 6,  "y": 5 } },
+          { "id": "r9",  "colour": "ma", "orientation": "horizontal", "position": { "x": 8,  "y": 5 } },
+          { "id": "r10", "colour": "ma", "orientation": "horizontal", "position": { "x": 10, "y": 5 } }
+        ],
+        "matSize": { "width": 13, "height": 8 },
+        "description": "E tekau ngā rākau mā",
+        "descriptionEnglish": "There are ten white rods"
+      },
+      "correctAnswer": "E tekau ngā rākau mā",
+      "words": ["E", "He", "tekau", "iwa", "waru", "ngā", "te", "rākau", "tae", "mā", "kōwhai", "whero"],
+      "audioAnswer": {
+        "file": "phrases/e-tekau-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "22-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "review-whitu-ma",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 8, "y": 2 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 3, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 5, "y": 5 } },
+          { "id": "r7", "colour": "ma", "orientation": "horizontal", "position": { "x": 7, "y": 5 } }
+        ],
+        "matSize": { "width": 11, "height": 8 },
+        "description": "E whitu ngā rākau mā",
+        "descriptionEnglish": "There are seven white rods"
+      },
+      "correctAnswer": "E whitu ngā rākau mā",
+      "words": ["E", "He", "whitu", "ono", "waru", "ngā", "te", "rākau", "tae", "mā", "whero", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-whitu-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "22-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "review-iwa-ma",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 2 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 2 } },
+          { "id": "r4", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r5", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 5 } },
+          { "id": "r6", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 5 } },
+          { "id": "r7", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 8 } },
+          { "id": "r8", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 8 } },
+          { "id": "r9", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 8 } }
+        ],
+        "matSize": { "width": 9, "height": 11 },
+        "description": "E iwa ngā rākau mā",
+        "descriptionEnglish": "There are nine white rods"
+      },
+      "correctAnswer": "E iwa ngā rākau mā",
+      "acceptedVariants": ["E iwa nga rakau ma"],
+      "audioAnswer": {
+        "file": "phrases/e-iwa-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "22-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "review-toru-whero",
+        "rods": [
+          { "id": "r1", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 3 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 5, "y": 3 } },
+          { "id": "r3", "colour": "whero", "orientation": "horizontal", "position": { "x": 8, "y": 3 } }
+        ],
+        "matSize": { "width": 12, "height": 7 },
+        "description": "E toru ngā rākau whero",
+        "descriptionEnglish": "There are three red rods"
+      },
+      "correctAnswer": "E toru ngā rākau whero",
+      "acceptedVariants": ["E toru nga rakau whero"],
+      "audioAnswer": {
+        "file": "phrases/e-toru-nga-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    }
+  ]
+}

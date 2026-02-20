@@ -1,0 +1,139 @@
+{
+  "id": 15,
+  "slug": "kei-waenganui",
+  "title": "Kei Waenganui",
+  "titleEnglish": "In the Middle",
+  "phase": 1,
+  "theme": "waahi",
+  "vocabularyIds": ["waenganui"],
+  "patternIds": ["kei-waenganui-te-rakau"],
+  "prerequisites": [11, 12, 13, 14],
+  "exercises": [
+    {
+      "id": "15-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "waenganui-kowhai-whero-kowhai",
+        "rods": [
+          { "id": "r1", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 9, "height": 11 },
+        "description": "Kei waenganui te rākau whero",
+        "descriptionEnglish": "The red rod is in the middle (between two yellow rods)"
+      },
+      "correctAnswer": "Kei waenganui te rākau whero",
+      "words": ["Kei", "He", "waenganui", "taha", "runga", "te", "ngā", "rākau", "tae", "whero", "kōwhai", "mangu"],
+      "audioAnswer": {
+        "file": "phrases/kei-waenganui-te-rakau-whero.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "15-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "waenganui-mangu-kowhai-mangu",
+        "rods": [
+          { "id": "r1", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 11, "height": 11 },
+        "description": "Kei waenganui te rākau kōwhai",
+        "descriptionEnglish": "The yellow rod is in the middle (between two black rods)"
+      },
+      "correctAnswer": "Kei waenganui te rākau kōwhai",
+      "words": ["Kei", "He", "waenganui", "mauī", "matau", "te", "ngā", "rākau", "tae", "kōwhai", "mangu", "whero"],
+      "audioAnswer": {
+        "file": "phrases/kei-waenganui-te-rakau-kowhai.mp3",
+        "duration": 2.4
+      }
+    },
+    {
+      "id": "15-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "waenganui-karaka-ma-karaka",
+        "rods": [
+          { "id": "r1", "colour": "karaka", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "karaka", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 14, "height": 11 },
+        "description": "Kei waenganui te rākau mā",
+        "descriptionEnglish": "The white rod is in the middle (between two orange rods)"
+      },
+      "correctAnswer": "Kei waenganui te rākau mā",
+      "words": ["Kei", "He", "waenganui", "taha", "mua", "te", "ngā", "rākau", "tae", "mā", "karaka", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/kei-waenganui-te-rakau-ma.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "15-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "waenganui-kahurangi-whero-kahurangi",
+        "rods": [
+          { "id": "r1", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 13, "height": 11 },
+        "description": "Kei waenganui te rākau whero",
+        "descriptionEnglish": "The red rod is in the middle (between two blue rods)"
+      },
+      "correctAnswer": "Kei waenganui te rākau whero",
+      "words": ["Kei", "He", "waenganui", "raro", "runga", "te", "ngā", "rākau", "tae", "whero", "kahurangi", "parauri"],
+      "audioAnswer": {
+        "file": "phrases/kei-waenganui-te-rakau-whero.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "15-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "waenganui-parauri-kakariki-parauri",
+        "rods": [
+          { "id": "r1", "colour": "parauri", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "parauri", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 12, "height": 11 },
+        "description": "Kei waenganui te rākau kākāriki",
+        "descriptionEnglish": "The light green rod is in the middle (between two brown rods)"
+      },
+      "correctAnswer": "Kei waenganui te rākau kākāriki",
+      "acceptedVariants": ["Kei waenganui te kākāriki", "Kei waenganui te rakau kakariki"],
+      "audioAnswer": {
+        "file": "phrases/kei-waenganui-te-rakau-kakariki.mp3",
+        "duration": 2.4
+      }
+    },
+    {
+      "id": "15-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "waenganui-wateri-karaka-wateri",
+        "rods": [
+          { "id": "r1", "colour": "wateri", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "karaka", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "wateri", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 14, "height": 11 },
+        "description": "Kei waenganui te rākau karaka",
+        "descriptionEnglish": "The orange rod is in the middle (between two purple rods)"
+      },
+      "correctAnswer": "Kei waenganui te rākau karaka",
+      "acceptedVariants": ["Kei waenganui te karaka", "Kei waenganui te rakau karaka"],
+      "audioAnswer": {
+        "file": "phrases/kei-waenganui-te-rakau-karaka.mp3",
+        "duration": 2.4
+      }
+    }
+  ]
+}

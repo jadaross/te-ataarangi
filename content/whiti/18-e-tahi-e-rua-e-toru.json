@@ -1,0 +1,134 @@
+{
+  "id": 18,
+  "slug": "e-tahi-e-rua-e-toru",
+  "title": "E Tahi, E Rua, E Toru",
+  "titleEnglish": "One, Two, Three",
+  "phase": 1,
+  "theme": "nama",
+  "vocabularyIds": ["tahi", "rua", "toru", "e"],
+  "patternIds": ["e-nama-nga-rakau"],
+  "prerequisites": [1, 2, 3, 4, 5],
+  "exercises": [
+    {
+      "id": "18-01",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "rua-whero",
+        "rods": [
+          { "id": "r1", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 3 } },
+          { "id": "r2", "colour": "whero", "orientation": "horizontal", "position": { "x": 2, "y": 6 } }
+        ],
+        "matSize": { "width": 6, "height": 9 },
+        "description": "E rua ngā rākau whero",
+        "descriptionEnglish": "There are two red rods"
+      },
+      "correctAnswer": "E rua ngā rākau whero",
+      "words": ["E", "He", "tahi", "rua", "toru", "ngā", "te", "rākau", "tae", "whero", "mā", "kōwhai"],
+      "audioAnswer": {
+        "file": "phrases/e-rua-nga-rakau-whero.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "18-02",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "tahi-kowhai",
+        "rods": [
+          { "id": "r1", "colour": "kowhai", "orientation": "horizontal", "position": { "x": 2, "y": 4 } }
+        ],
+        "matSize": { "width": 9, "height": 8 },
+        "description": "E tahi te rākau kōwhai",
+        "descriptionEnglish": "There is one yellow rod"
+      },
+      "correctAnswer": "E tahi te rākau kōwhai",
+      "words": ["E", "He", "tahi", "rua", "toru", "te", "ngā", "rākau", "tae", "kōwhai", "whero", "mangu"],
+      "audioAnswer": {
+        "file": "phrases/e-tahi-te-rakau-kowhai.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "18-03",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "toru-kahurangi",
+        "rods": [
+          { "id": "r1", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 2, "y": 2 } },
+          { "id": "r2", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 2, "y": 5 } },
+          { "id": "r3", "colour": "kahurangi", "orientation": "horizontal", "position": { "x": 2, "y": 8 } }
+        ],
+        "matSize": { "width": 13, "height": 11 },
+        "description": "E toru ngā rākau kahurangi",
+        "descriptionEnglish": "There are three blue rods"
+      },
+      "correctAnswer": "E toru ngā rākau kahurangi",
+      "words": ["E", "He", "toru", "rua", "whā", "ngā", "te", "rākau", "tae", "kahurangi", "kōwhai", "whero"],
+      "audioAnswer": {
+        "file": "phrases/e-toru-nga-rakau-kahurangi.mp3",
+        "duration": 2.2
+      }
+    },
+    {
+      "id": "18-04",
+      "type": "sentence_builder",
+      "rakauConfig": {
+        "id": "rua-mangu",
+        "rods": [
+          { "id": "r1", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 3 } },
+          { "id": "r2", "colour": "mangu", "orientation": "horizontal", "position": { "x": 2, "y": 6 } }
+        ],
+        "matSize": { "width": 10, "height": 9 },
+        "description": "E rua ngā rākau mangu",
+        "descriptionEnglish": "There are two black rods"
+      },
+      "correctAnswer": "E rua ngā rākau mangu",
+      "words": ["E", "He", "rua", "tahi", "toru", "ngā", "te", "rākau", "tae", "mangu", "kahurangi", "whero"],
+      "audioAnswer": {
+        "file": "phrases/e-rua-nga-rakau-mangu.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "18-05",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "toru-ma",
+        "rods": [
+          { "id": "r1", "colour": "ma", "orientation": "horizontal", "position": { "x": 2, "y": 4 } },
+          { "id": "r2", "colour": "ma", "orientation": "horizontal", "position": { "x": 4, "y": 4 } },
+          { "id": "r3", "colour": "ma", "orientation": "horizontal", "position": { "x": 6, "y": 4 } }
+        ],
+        "matSize": { "width": 9, "height": 8 },
+        "description": "E toru ngā rākau mā",
+        "descriptionEnglish": "There are three white rods"
+      },
+      "correctAnswer": "E toru ngā rākau mā",
+      "acceptedVariants": ["E toru nga rakau ma"],
+      "audioAnswer": {
+        "file": "phrases/e-toru-nga-rakau-ma.mp3",
+        "duration": 2.0
+      }
+    },
+    {
+      "id": "18-06",
+      "type": "typed_input",
+      "rakauConfig": {
+        "id": "rua-kakariki",
+        "rods": [
+          { "id": "r1", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 2, "y": 3 } },
+          { "id": "r2", "colour": "kakariki", "orientation": "horizontal", "position": { "x": 2, "y": 6 } }
+        ],
+        "matSize": { "width": 7, "height": 9 },
+        "description": "E rua ngā rākau kākāriki",
+        "descriptionEnglish": "There are two light green rods"
+      },
+      "correctAnswer": "E rua ngā rākau kākāriki",
+      "acceptedVariants": ["E rua nga rakau kakariki"],
+      "audioAnswer": {
+        "file": "phrases/e-rua-nga-rakau-kakariki.mp3",
+        "duration": 2.2
+      }
+    }
+  ]
+}
