@@ -202,10 +202,22 @@ export default function KarakiaPage() {
 
         {/* Attribution */}
         <footer className="mt-14 pt-6 border-t border-border text-center">
-          <p className="text-text-muted text-xs max-w-md mx-auto">
+          <p className="text-text-muted text-xs max-w-md mx-auto mb-4">
             These karakia are part of the living tradition of te reo Māori and belong to the people
             who carry them. They are shared here for educational purposes. Please treat them with
             respect.
+          </p>
+          <p className="text-text-muted text-xs">
+            Want to hear individual words?{' '}
+            <a
+              href="https://forvo.com/languages/mi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-text-secondary"
+            >
+              Search on Forvo
+            </a>
+            {' '}— a community pronunciation dictionary with human recordings in te reo Māori.
           </p>
         </footer>
       </main>

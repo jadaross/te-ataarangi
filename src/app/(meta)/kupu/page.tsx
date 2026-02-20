@@ -306,23 +306,36 @@ export default function KupuPage() {
                     key={i}
                     className="border border-border rounded-lg p-4 hover:bg-surface/50 transition-colors"
                   >
-                    <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4 mb-1">
-                      <p
-                        className="font-semibold text-text-primary text-lg"
-                        lang="mi"
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1 min-w-0">
+                        <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4 mb-1">
+                          <p
+                            className="font-semibold text-text-primary text-lg"
+                            lang="mi"
+                          >
+                            {phrase.maori}
+                          </p>
+                          <p className="text-text-secondary text-sm">{phrase.english}</p>
+                        </div>
+                        {phrase.pronunciation && (
+                          <p className="text-xs text-accent font-mono mb-1">
+                            {phrase.pronunciation}
+                          </p>
+                        )}
+                        {phrase.notes && (
+                          <p className="text-text-muted text-xs mt-1">{phrase.notes}</p>
+                        )}
+                      </div>
+                      <a
+                        href={`https://forvo.com/search/${encodeURIComponent(phrase.maori.replace(/[?!.,]/g, '').trim())}/mi/`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-shrink-0 text-xs text-text-muted hover:text-accent transition-colors pt-1"
+                        aria-label={`Hear "${phrase.maori}" on Forvo`}
                       >
-                        {phrase.maori}
-                      </p>
-                      <p className="text-text-secondary text-sm">{phrase.english}</p>
+                        ▶ Forvo
+                      </a>
                     </div>
-                    {phrase.pronunciation && (
-                      <p className="text-xs text-accent font-mono mb-1">
-                        {phrase.pronunciation}
-                      </p>
-                    )}
-                    {phrase.notes && (
-                      <p className="text-text-muted text-xs mt-1">{phrase.notes}</p>
-                    )}
                   </div>
                 ))}
               </div>
