@@ -11,7 +11,7 @@
   "exercises": [
     {
       "id": "11-01",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "runga-whero-kakariki",
         "rods": [
@@ -33,21 +33,15 @@
         "descriptionEnglish": "The red rod is above, the light green rod is below"
       },
       "correctAnswer": "Kei runga te rākau whero",
-      "acceptedVariants": ["Kei runga te whero"],
+      "words": ["Kei", "He", "runga", "raro", "mua", "te", "ngā", "rākau", "tae", "whero", "kākāriki", "mangu"],
       "audioAnswer": {
         "file": "phrases/kei-runga-te-rakau-whero.mp3",
         "duration": 2.0
-      },
-      "options": [
-        "Kei runga te rākau whero",
-        "Kei runga te rākau kākāriki",
-        "Kei raro te rākau whero",
-        "Kei mua te rākau whero"
-      ]
+      }
     },
     {
       "id": "11-02",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "raro-kahurangi-kowhai",
         "rods": [
@@ -69,21 +63,15 @@
         "descriptionEnglish": "The yellow rod is above, the blue rod is below"
       },
       "correctAnswer": "Kei raro te rākau kahurangi",
-      "acceptedVariants": ["Kei raro te kahurangi"],
+      "words": ["Kei", "He", "raro", "runga", "muri", "te", "ngā", "rākau", "tae", "kahurangi", "kōwhai", "mangu"],
       "audioAnswer": {
         "file": "phrases/kei-raro-te-rakau-kahurangi.mp3",
         "duration": 2.2
-      },
-      "options": [
-        "Kei raro te rākau kahurangi",
-        "Kei raro te rākau kōwhai",
-        "Kei runga te rākau kahurangi",
-        "Kei mua te rākau kahurangi"
-      ]
+      }
     },
     {
       "id": "11-03",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "runga-mangu-ma",
         "rods": [
@@ -105,21 +93,15 @@
         "descriptionEnglish": "The black rod is above, the white rod is below"
       },
       "correctAnswer": "Kei runga te rākau mangu",
-      "acceptedVariants": ["Kei runga te mangu"],
+      "words": ["Kei", "He", "runga", "raro", "mua", "te", "ngā", "rākau", "tae", "mangu", "mā", "parauri"],
       "audioAnswer": {
         "file": "phrases/kei-runga-te-rakau-mangu.mp3",
         "duration": 2.0
-      },
-      "options": [
-        "Kei runga te rākau mangu",
-        "Kei runga te rākau mā",
-        "Kei raro te rākau mangu",
-        "Kei raro te rākau mā"
-      ]
+      }
     },
     {
       "id": "11-04",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "raro-karaka-parauri",
         "rods": [
@@ -141,17 +123,11 @@
         "descriptionEnglish": "The brown rod is above, the orange rod is below"
       },
       "correctAnswer": "Kei raro te rākau karaka",
-      "acceptedVariants": ["Kei raro te karaka"],
+      "words": ["Kei", "He", "raro", "runga", "muri", "te", "ngā", "rākau", "tae", "karaka", "parauri", "kōwhai"],
       "audioAnswer": {
         "file": "phrases/kei-raro-te-rakau-karaka.mp3",
         "duration": 2.0
-      },
-      "options": [
-        "Kei raro te rākau karaka",
-        "Kei raro te rākau parauri",
-        "Kei runga te rākau karaka",
-        "Kei muri te rākau karaka"
-      ]
+      }
     },
     {
       "id": "11-05",

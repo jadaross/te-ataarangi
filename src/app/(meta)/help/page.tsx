@@ -96,6 +96,22 @@ export default function HelpPage() {
             </ul>
           </section>
 
+          {/* Say it aloud */}
+          <section aria-labelledby="speakaloud-heading">
+            <h2 id="speakaloud-heading" className="text-heading-3 font-semibold text-text-primary mb-3">
+              Say the words aloud
+            </h2>
+            <p className="text-text-secondary mb-3">
+              The small microphone icon (<span lang="mi" className="font-medium">Kōrerotia</span>) at
+              the top of each lesson is a reminder to say each word out loud as you practice.
+            </p>
+            <p className="text-text-secondary">
+              Speaking aloud is central to the Te Ataarangi approach. Even when you are selecting words
+              from a list, say each word as you pick it, and say the full sentence once you have built
+              it. The mouth needs to learn the shape of the language, not just the eyes.
+            </p>
+          </section>
+
           {/* Audio */}
           <section aria-labelledby="audio-heading">
             <h2 id="audio-heading" className="text-heading-3 font-semibold text-text-primary mb-3">

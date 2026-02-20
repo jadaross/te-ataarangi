@@ -110,7 +110,7 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
 
   return (
     <div className="max-w-2xl mx-auto px-4 sm:px-6 py-8 space-y-8">
-      {/* Progress indicator — Māori only */}
+      {/* Progress indicator + speak-aloud reminder — Māori only */}
       <div
         className="flex items-center gap-3"
         aria-label={`Pātai ${current} o ${totalExercises}`}
@@ -125,6 +125,31 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
             style={{ width: `${(current / totalExercises) * 100}%` }}
           />
         </div>
+        {/* Gentle reminder to speak each word aloud */}
+        <span
+          className="shrink-0 flex items-center gap-1 text-xs text-text-muted select-none"
+          lang="mi"
+          title="Say the words aloud"
+          aria-label="Kōrerotia ngā kupu — say the words aloud"
+        >
+          <svg
+            width="13"
+            height="13"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+            <line x1="12" y1="19" x2="12" y2="23" />
+            <line x1="8" y1="23" x2="16" y2="23" />
+          </svg>
+          Kōrerotia
+        </span>
       </div>
 
       {/* Exercise */}

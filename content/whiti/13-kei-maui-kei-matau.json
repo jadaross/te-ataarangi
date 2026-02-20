@@ -11,7 +11,7 @@
   "exercises": [
     {
       "id": "13-01",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "maui-whero-kowhai",
         "rods": [
@@ -33,21 +33,15 @@
         "descriptionEnglish": "The red rod is on the left, the yellow rod is on the right"
       },
       "correctAnswer": "Kei mauī te rākau whero",
-      "acceptedVariants": ["Kei mauī te whero"],
+      "words": ["Kei", "He", "mauī", "matau", "runga", "te", "ngā", "rākau", "tae", "whero", "kōwhai", "mangu"],
       "audioAnswer": {
         "file": "phrases/kei-maui-te-rakau-whero.mp3",
         "duration": 2.0
-      },
-      "options": [
-        "Kei mauī te rākau whero",
-        "Kei mauī te rākau kōwhai",
-        "Kei matau te rākau whero",
-        "Kei matau ngā rākau"
-      ]
+      }
     },
     {
       "id": "13-02",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "matau-kahurangi-ma",
         "rods": [
@@ -69,21 +63,15 @@
         "descriptionEnglish": "The white rod is on the left, the blue rod is on the right"
       },
       "correctAnswer": "Kei matau te rākau kahurangi",
-      "acceptedVariants": ["Kei matau te kahurangi"],
+      "words": ["Kei", "He", "matau", "mauī", "raro", "te", "ngā", "rākau", "tae", "kahurangi", "mā", "kōwhai"],
       "audioAnswer": {
         "file": "phrases/kei-matau-te-rakau-kahurangi.mp3",
         "duration": 2.2
-      },
-      "options": [
-        "Kei matau te rākau kahurangi",
-        "Kei matau te rākau mā",
-        "Kei mauī te rākau kahurangi",
-        "Kei raro te rākau kahurangi"
-      ]
+      }
     },
     {
       "id": "13-03",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "maui-kakariki-mangu",
         "rods": [
@@ -105,21 +93,15 @@
         "descriptionEnglish": "The light green rod is on the left, the black rod is on the right"
       },
       "correctAnswer": "Kei mauī te rākau kākāriki",
-      "acceptedVariants": ["Kei mauī te kākāriki"],
+      "words": ["Kei", "He", "mauī", "matau", "mua", "te", "ngā", "rākau", "tae", "kākāriki", "mangu", "whero"],
       "audioAnswer": {
         "file": "phrases/kei-maui-te-rakau-kakariki.mp3",
         "duration": 2.2
-      },
-      "options": [
-        "Kei mauī te rākau kākāriki",
-        "Kei mauī te rākau mangu",
-        "Kei matau te rākau kākāriki",
-        "Kei mua te rākau kākāriki"
-      ]
+      }
     },
     {
       "id": "13-04",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "matau-karaka-wateri",
         "rods": [
@@ -141,17 +123,11 @@
         "descriptionEnglish": "The purple rod is on the left, the orange rod is on the right"
       },
       "correctAnswer": "Kei matau te rākau karaka",
-      "acceptedVariants": ["Kei matau te karaka"],
+      "words": ["Kei", "He", "matau", "mauī", "muri", "te", "ngā", "rākau", "tae", "karaka", "wāteri", "mangu"],
       "audioAnswer": {
         "file": "phrases/kei-matau-te-rakau-karaka.mp3",
         "duration": 2.0
-      },
-      "options": [
-        "Kei matau te rākau karaka",
-        "Kei matau te rākau wāteri",
-        "Kei mauī te rākau karaka",
-        "Kei muri te rākau karaka"
-      ]
+      }
     },
     {
       "id": "13-05",

@@ -11,7 +11,7 @@
   "exercises": [
     {
       "id": "12-01",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "mua-kakariki-whero",
         "rods": [
@@ -33,21 +33,15 @@
         "descriptionEnglish": "The light green rod is in front (near), the red rod is behind (far)"
       },
       "correctAnswer": "Kei mua te rākau kākāriki",
-      "acceptedVariants": ["Kei mua te kākāriki"],
+      "words": ["Kei", "He", "mua", "muri", "runga", "te", "ngā", "rākau", "tae", "kākāriki", "whero", "mangu"],
       "audioAnswer": {
         "file": "phrases/kei-mua-te-rakau-kakariki.mp3",
         "duration": 2.0
-      },
-      "options": [
-        "Kei mua te rākau kākāriki",
-        "Kei mua te rākau whero",
-        "Kei muri te rākau kākāriki",
-        "Kei raro te rākau kākāriki"
-      ]
+      }
     },
     {
       "id": "12-02",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "muri-kahurangi-kowhai",
         "rods": [
@@ -69,21 +63,15 @@
         "descriptionEnglish": "The blue rod is behind (far), the yellow rod is in front (near)"
       },
       "correctAnswer": "Kei muri te rākau kahurangi",
-      "acceptedVariants": ["Kei muri te kahurangi"],
+      "words": ["Kei", "He", "muri", "mua", "raro", "te", "ngā", "rākau", "tae", "kahurangi", "kōwhai", "mangu"],
       "audioAnswer": {
         "file": "phrases/kei-muri-te-rakau-kahurangi.mp3",
         "duration": 2.2
-      },
-      "options": [
-        "Kei muri te rākau kahurangi",
-        "Kei muri te rākau kōwhai",
-        "Kei mua te rākau kahurangi",
-        "Kei runga te rākau kahurangi"
-      ]
+      }
     },
     {
       "id": "12-03",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "mua-wateri-mangu",
         "rods": [
@@ -105,21 +93,15 @@
         "descriptionEnglish": "The black rod is behind (far), the purple rod is in front (near)"
       },
       "correctAnswer": "Kei mua te rākau wāteri",
-      "acceptedVariants": ["Kei mua te wāteri"],
+      "words": ["Kei", "He", "mua", "muri", "runga", "te", "ngā", "rākau", "tae", "wāteri", "mangu", "kākāriki"],
       "audioAnswer": {
         "file": "phrases/kei-mua-te-rakau-wateri.mp3",
         "duration": 2.0
-      },
-      "options": [
-        "Kei mua te rākau wāteri",
-        "Kei mua te rākau mangu",
-        "Kei muri te rākau wāteri",
-        "Kei raro te rākau wāteri"
-      ]
+      }
     },
     {
       "id": "12-04",
-      "type": "multi_choice",
+      "type": "sentence_builder",
       "rakauConfig": {
         "id": "muri-ma-parauri",
         "rods": [
@@ -141,17 +123,11 @@
         "descriptionEnglish": "The white rod is behind (far), the brown rod is in front (near)"
       },
       "correctAnswer": "Kei muri te rākau mā",
-      "acceptedVariants": ["Kei muri te mā"],
+      "words": ["Kei", "He", "muri", "mua", "raro", "te", "ngā", "rākau", "tae", "mā", "parauri", "kōwhai"],
       "audioAnswer": {
         "file": "phrases/kei-muri-te-rakau-ma.mp3",
         "duration": 1.8
-      },
-      "options": [
-        "Kei muri te rākau mā",
-        "Kei muri te rākau parauri",
-        "Kei mua te rākau mā",
-        "Kei runga te rākau mā"
-      ]
+      }
     },
     {
       "id": "12-05",
