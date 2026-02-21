@@ -101,10 +101,10 @@ export function LessonFlow({ whiti }: LessonFlowProps) {
     [locked, exercises, session],
   )
 
-  if (session.completed) return <LessonComplete />
+  if (session.completed) return <LessonComplete whitiId={whiti.id} />
 
   const exercise = exercises[session.currentExerciseIndex]
-  if (!exercise) return <LessonComplete />
+  if (!exercise) return <LessonComplete whitiId={whiti.id} />
 
   const current = session.currentExerciseIndex + 1
 

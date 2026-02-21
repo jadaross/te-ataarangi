@@ -1,6 +1,8 @@
 'use client'
 
+import { useEffect } from 'react'
 import Link from 'next/link'
+import { useProgress } from '@/hooks/useProgress'
 
 /**
  * Shown when the learner has completed all exercises in a whiti.
@@ -8,7 +10,12 @@ import Link from 'next/link'
  * All text is in te reo Māori (learning route context).
  * Includes a link back to the lesson index (/whiti).
  */
-export function LessonComplete() {
+export function LessonComplete({ whitiId }: { whitiId: number }) {
+  const { markComplete } = useProgress()
+
+  useEffect(() => {
+    markComplete(whitiId)
+  }, [whitiId, markComplete])
   return (
     <div className="flex flex-col items-center justify-center text-center py-16 px-4 space-y-6">
       {/* Decorative rod bar */}
